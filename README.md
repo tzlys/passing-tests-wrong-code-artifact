@@ -7,8 +7,8 @@ supports the paper's claims in three layers, from quickest to most complete:
 1. **One case, four steps (start here, about 5 minutes).** The saved records of
    one primary case show the failure from start to finish. Reading them needs
    no setup. `show_case.py` checks every step in about one second.
-2. **Natural-task pilot (Section V, Table III).** `stage-b-review-artifact.tar.gz`
-   is a release asset. Its `review_stage_b.py` recomputes Table III from the raw
+2. **Natural-task pilot (Section V, Table III).**
+   [`packages/stage-b-review-artifact.tar.gz`](packages/) is in this repository. Its `review_stage_b.py` recomputes Table III from the raw
    receipts and verifies every seal.
 3. **Full original packages (Sections III–IV, Tables I–II).** These are shared
    through a private review link, listed under [Full packages](#full-packages).
@@ -98,10 +98,11 @@ serial controls, and the selector/seed sensitivity runs.
 
 ## Natural-task pilot (Section V)
 
-Download `stage-b-review-artifact.tar.gz` from the latest release, then run:
+The package is [`packages/stage-b-review-artifact.tar.gz`](packages/) (SHA-256 in
+[`packages/SHA256SUMS`](packages/SHA256SUMS)). From a clone of this repository, run:
 
 ```
-tar xzf stage-b-review-artifact.tar.gz && cd stage-b-review-artifact
+tar xzf packages/stage-b-review-artifact.tar.gz && cd stage-b-review-artifact
 python3 -I -B review_stage_b.py     # about one second; prints Table III and "status: pass"
 ```
 
