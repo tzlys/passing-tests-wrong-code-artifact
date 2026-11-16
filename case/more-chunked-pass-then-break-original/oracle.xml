@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.211" timestamp="2026-10-16T18:56:06.569461-04:00" hostname="Yansongs-MacBook-Pro.local"><testcase classname="tests.test_more.ChunkedTests" name="test_even" time="0.000"><failure message="RuntimeError: AUDIT_INJECTED_REGRESSION">self = &lt;tests.test_more.ChunkedTests testMethod=test_even&gt;
+
+    def test_even(self):
+        """Test when ``n`` divides evenly into the length of the iterable."""
+        self.assertEqual(
+&gt;           list(mi.chunked('ABCDEF', 3)), [['A', 'B', 'C'], ['D', 'E', 'F']]
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+        )
+
+tests/test_more.py:56: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+iterable = 'ABCDEF', n = 3, strict = False
+
+    def chunked(iterable, n, strict=False):
+        """Break *iterable* into lists of length *n*:
+    
+            &gt;&gt;&gt; list(chunked([1, 2, 3, 4, 5, 6], 3))
+            [[1, 2, 3], [4, 5, 6]]
+    
+        By the default, the last yielded list will have fewer than *n* elements
+        if the length of *iterable* is not divisible by *n*:
+    
+            &gt;&gt;&gt; list(chunked([1, 2, 3, 4, 5, 6, 7, 8], 3))
+            [[1, 2, 3], [4, 5, 6], [7, 8]]
+    
+        To use a fill-in value instead, see the :func:`grouper` recipe.
+    
+        If the length of *iterable* is not divisible by *n* and *strict* is
+        ``True``, then ``ValueError`` will be raised before the last
+        list is yielded.
+    
+        """
+&gt;       raise RuntimeError("AUDIT_INJECTED_REGRESSION")
+E       RuntimeError: AUDIT_INJECTED_REGRESSION
+
+more_itertools/more.py:234: RuntimeError</failure></testcase></testsuite></testsuites>

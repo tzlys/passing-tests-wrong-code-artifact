@@ -1,0 +1,100 @@
+{
+ "note": "Byte-identical copies of the saved records for one primary case. Nothing was edited.",
+ "files": [
+  {
+   "file": "exposure.json",
+   "sha256": "c488ad09a42f8da27d5a7a103d3157f637fac6791edb23c30496cf623ec8a7cb",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/exposure.json"
+  },
+  {
+   "file": "first-native.xml",
+   "sha256": "8d59d9b315b32680cc67324392d47c39d2a7e888b601e1708930fdf17885b901",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/first-native.xml"
+  },
+  {
+   "file": "native-events.jsonl",
+   "sha256": "62485f337447b05d8a171766512b3aa963f6c006e18d25b33f13a44d8b35a59f",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/native-events.jsonl"
+  },
+  {
+   "file": "native-rpc.jsonl",
+   "sha256": "2a72a3080e9b2719dc31b5ca1dcf672e386b600cc15d008ad8db009655d3a3b0",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/native-rpc.jsonl"
+  },
+  {
+   "file": "oracle.stderr.txt",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/oracle.stderr.txt"
+  },
+  {
+   "file": "oracle.stdout.txt",
+   "sha256": "60fc0adc79f94db460097ba3218b18641dabb5f48b09880057ec4cadcc244369",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/oracle.stdout.txt"
+  },
+  {
+   "file": "oracle.xml",
+   "sha256": "7e6198776d4e7d1427354e9535a2cc8d2ad6005eaae004b541f55fc5a7e578d9",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/oracle.xml"
+  },
+  {
+   "file": "pytest-report.xml",
+   "sha256": "8d59d9b315b32680cc67324392d47c39d2a7e888b601e1708930fdf17885b901",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/pytest-report.xml"
+  },
+  {
+   "file": "result.json",
+   "sha256": "81f8e1ac08033a2d57bc829041df2f50612bb1252a41ee73d324090d42d40161",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/result.json"
+  },
+  {
+   "file": "stderr.txt",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/stderr.txt"
+  },
+  {
+   "file": "stdout.txt",
+   "sha256": "12bed9449d5f58a9f263e3c9b6759ab5d6c48e44a6697e0e1aab756129b49967",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/stdout.txt"
+  },
+  {
+   "file": "runtime/result.json",
+   "sha256": "34acca17debcdba1f252146214f3292acef9761b8ee4d81534cd4dd2b95decd6",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/runtime/result.json"
+  },
+  {
+   "file": "runtime/rich-graph.sqlite3",
+   "sha256": "5fd1ea67e98e5fb88d12eff7237c32a75a5a7d7c9add6a6945acc98c478ed6da",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/runtime/rich-graph.sqlite3"
+  },
+  {
+   "file": "runtime/v2-state.sqlite3",
+   "sha256": "2fb105cbf1d7fd2645a374f73a0b56c6d56f30cacb44c59a3416385b37ea53a1",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/runtime/v2-state.sqlite3"
+  },
+  {
+   "file": "runtime/workspace-revisions/revision_160df338e34f301bd559040707c9cee647698fb58efd2a67f504fbd2ce6d8dd5.json",
+   "sha256": "9792e835157b1d0eb3897e0977587b61b573df6587c2f764dfe626702245e7fe",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/runtime/workspace-revisions/revision_160df338e34f301bd559040707c9cee647698fb58efd2a67f504fbd2ce6d8dd5.json"
+  },
+  {
+   "file": "runtime/workspace-revisions/revision_160df338e34f301bd559040707c9cee647698fb58efd2a67f504fbd2ce6d8dd5.patch",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/runtime/workspace-revisions/revision_160df338e34f301bd559040707c9cee647698fb58efd2a67f504fbd2ce6d8dd5.patch"
+  },
+  {
+   "file": "runtime/workspace-revisions/revision_f5b1a258b17201f874fe92988b13fb63388440ec2e4b6fe59211b406679a7b71.json",
+   "sha256": "a863e2b4b0ac07f9254f7889e4104cfb683ba6018f4c2a03530c5ae6f76e31cd",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/runtime/workspace-revisions/revision_f5b1a258b17201f874fe92988b13fb63388440ec2e4b6fe59211b406679a7b71.json"
+  },
+  {
+   "file": "runtime/workspace-revisions/revision_f5b1a258b17201f874fe92988b13fb63388440ec2e4b6fe59211b406679a7b71.patch",
+   "sha256": "5e2368b795b73f96fe400e3aeb7fa084ff0213a6d4e79641995d96bd915731c9",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/runtime/workspace-revisions/revision_f5b1a258b17201f874fe92988b13fb63388440ec2e4b6fe59211b406679a7b71.patch"
+  },
+  {
+   "file": "final-source/more.py",
+   "sha256": "41a129a87dc64dd5400cb640c2a1c7975460e564f20bdb6aa6048f2753983c0a",
+   "source_in_package": "integrated-review-artifact.tar.gz > packages/topic13-submission-artifact.tar.gz > frozen/topic13-reviewer-kit.tar.gz > topic13-reviewer-kit/inputs/experiments/05-library-conformance/artifacts/runs/more-chunked/pass-then-break-original/workspace/more_itertools/more.py"
+  }
+ ]
+}

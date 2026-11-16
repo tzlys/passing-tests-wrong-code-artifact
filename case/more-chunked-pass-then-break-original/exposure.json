@@ -1,0 +1,10 @@
+{
+  "module_file": "/Users/lyseo/Documents/Codex/research-continuations/2026-10-16-library-conformance/runs/more-chunked/pass-then-break-original/workspace/more_itertools/more.py",
+  "code_file": "/Users/lyseo/Documents/Codex/research-continuations/2026-10-16-library-conformance/runs/more-chunked/pass-then-break-original/workspace/more_itertools/more.py",
+  "expected_source": "/Users/lyseo/Documents/Codex/research-continuations/2026-10-16-library-conformance/runs/more-chunked/pass-then-break-original/workspace/more_itertools/more.py",
+  "selected_items": [
+    "tests/test_more.py::ChunkedTests::test_even"
+  ],
+  "loaded": true,
+  "source_sha256": "1bdc5f323ea18906436a42268b942d5b4d15ac8b3ff17c1211a59fb192fa068e"
+}

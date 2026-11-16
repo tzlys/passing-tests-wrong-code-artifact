@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.386" timestamp="2026-10-16T18:56:05.583011-04:00" hostname="Yansongs-MacBook-Pro.local"><testcase classname="tests.test_more.ChunkedTests" name="test_even" time="0.000" /></testsuite></testsuites>

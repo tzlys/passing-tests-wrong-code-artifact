@@ -1,0 +1,1 @@
+{"task": "more-chunked", "case": "pass-then-break", "policy": "original", "live_native_transport": true, "experimental_guard": false, "model_calls": 0, "cloud_spend": 0, "native_thread_id": "01a146ed-fec4-70e2-909c-7de4fabe52bf", "native_process_ended": true, "fresh_final_exit": 1, "credentials_created": false}

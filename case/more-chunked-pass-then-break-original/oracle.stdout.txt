@@ -1,0 +1,45 @@
+F
+=================================== FAILURES ===================================
+____________________________ ChunkedTests.test_even ____________________________
+
+self = <tests.test_more.ChunkedTests testMethod=test_even>
+
+    def test_even(self):
+        """Test when ``n`` divides evenly into the length of the iterable."""
+        self.assertEqual(
+>           list(mi.chunked('ABCDEF', 3)), [['A', 'B', 'C'], ['D', 'E', 'F']]
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+        )
+
+tests/test_more.py:56: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+iterable = 'ABCDEF', n = 3, strict = False
+
+    def chunked(iterable, n, strict=False):
+        """Break *iterable* into lists of length *n*:
+    
+            >>> list(chunked([1, 2, 3, 4, 5, 6], 3))
+            [[1, 2, 3], [4, 5, 6]]
+    
+        By the default, the last yielded list will have fewer than *n* elements
+        if the length of *iterable* is not divisible by *n*:
+    
+            >>> list(chunked([1, 2, 3, 4, 5, 6, 7, 8], 3))
+            [[1, 2, 3], [4, 5, 6], [7, 8]]
+    
+        To use a fill-in value instead, see the :func:`grouper` recipe.
+    
+        If the length of *iterable* is not divisible by *n* and *strict* is
+        ``True``, then ``ValueError`` will be raised before the last
+        list is yielded.
+    
+        """
+>       raise RuntimeError("AUDIT_INJECTED_REGRESSION")
+E       RuntimeError: AUDIT_INJECTED_REGRESSION
+
+more_itertools/more.py:234: RuntimeError
+- generated xml file: /Users/lyseo/Documents/Codex/research-continuations/2026-10-16-library-conformance/runs/more-chunked/pass-then-break-original/oracle.xml -
+=========================== short test summary info ============================
+FAILED tests/test_more.py::ChunkedTests::test_even - RuntimeError: AUDIT_INJE...
+1 failed in 0.21s
