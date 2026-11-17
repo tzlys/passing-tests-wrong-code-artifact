@@ -19,7 +19,7 @@
 set -euo pipefail
 REGION="${REGION:-us-east-2}"
 TYPE="${TYPE:-m5.xlarge}"
-COMMIT="${COMMIT:-447485a76497b71ad9d4950a75a8a6233f76527c}"   # commit that holds the regrading scripts
+COMMIT="${COMMIT:-fc7824633909a5b1a6ebe99c7980bed7aefda6be}"   # commit that holds the regrading scripts
 HERE="$(cd "$(dirname "$0")" && pwd)"
 OUT="$HERE/results-$(date -u +%Y%m%dT%H%M%SZ)"
 mkdir -p "$OUT"
