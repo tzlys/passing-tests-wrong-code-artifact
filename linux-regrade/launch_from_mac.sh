@@ -19,7 +19,7 @@
 set -euo pipefail
 REGION="${REGION:-us-east-2}"
 TYPE="${TYPE:-m5.xlarge}"
-COMMIT="${COMMIT:-main}"   # commit that holds the regrading scripts
+COMMIT="${COMMIT:-447485a76497b71ad9d4950a75a8a6233f76527c}"   # commit that holds the regrading scripts
 HERE="$(cd "$(dirname "$0")" && pwd)"
 OUT="$HERE/results-$(date -u +%Y%m%dT%H%M%SZ)"
 mkdir -p "$OUT"
@@ -35,31 +35,13 @@ echo "region=$REGION type=$TYPE ami=$AMI"
 
 cat > "$OUT/user-data.sh" <<EOF
 #!/bin/bash
-exec > /var/log/stageb.log 2>&1
-( sleep 14400; poweroff ) >/dev/null 2>&1 &   # hard stop after 4 hours (a plain timer, not a scheduled shutdown)
-export HOME=/root USER=root DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a
-say() { echo "\$@" > /dev/ttyS0; }
-say "STAGEB-STATUS started"
-fail() { say "STAGEB-STATUS failed-\$1"; tail -40 /var/log/stageb.log > /dev/ttyS0; sleep 900; shutdown -h now; exit 1; }
-say "STAGEB-STATUS net \$(curl -s -o /dev/null -w '%{http_code}' https://github.com)"
-apt-get update -y && apt-get install -y git || fail apt
-git clone https://github.com/tzlys/passing-tests-wrong-code-artifact /root/repo || fail clone
-cd /root/repo && git checkout $COMMIT && git rev-parse HEAD > /root/commit.txt || fail checkout
-say "STAGEB-STATUS setup"
-bash linux-regrade/setup_host.sh || fail setup
-say "STAGEB-STATUS regrade"
-bash linux-regrade/run_regrade.sh || say "STAGEB-STATUS regrade-failed"
-RES=\$(ls -d /root/stageb-linux-*/ 2>/dev/null | head -1)
-mkdir -p /root/key && cp /root/commit.txt /root/key/
-[ -n "\$RES" ] && cd "\$RES" && cp -r --parents summary.json dataset-check.json images.txt repo-commit.txt \
-   \$(ls logs/run_evaluation/*/*/*/report.json 2>/dev/null) /root/key/ 2>/dev/null
-tail -200 /var/log/stageb.log > /root/key/tail.log
-tar czf /root/key.tgz -C /root key
-say "STAGEB-BEGIN"
-base64 -w 76 /root/key.tgz > /dev/ttyS0
-say "STAGEB-END"
-sleep 20
-shutdown -h now
+# Keep package installs from restarting services, then run the job as its own systemd unit
+# (outside cloud-init), with a separate 4-hour power-off timer.
+mkdir -p /etc/needrestart/conf.d
+echo '\$nrconf{restart} = "l";' > /etc/needrestart/conf.d/99-stageb.conf
+systemd-run --on-active=4h --unit=stageb-hardstop /bin/systemctl poweroff
+systemd-run --unit=stageb --setenv=COMMIT=$COMMIT /bin/bash -c \
+  "curl -fsSL https://raw.githubusercontent.com/tzlys/passing-tests-wrong-code-artifact/$COMMIT/linux-regrade/ec2_job.sh -o /root/job.sh && bash /root/job.sh"
 EOF
 
 IID=$(aws ec2 run-instances --region "$REGION" --image-id "$AMI" --instance-type "$TYPE" \
