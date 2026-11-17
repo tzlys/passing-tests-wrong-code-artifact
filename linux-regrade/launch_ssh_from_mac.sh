@@ -2,6 +2,7 @@
 # AMENDMENT-02 Linux regrading over SSH, with live output in your terminal.
 #
 #   bash launch_ssh_from_mac.sh          # region defaults to us-east-2
+#   JOB=linux-regrade/run_supplement_01.sh bash launch_ssh_from_mac.sh   # SUPPLEMENT-01
 #
 # Uses your existing AWS CLI login. It creates, for this run only:
 # - a key pair (the private key stays in this folder and is deleted at the end);
@@ -13,6 +14,7 @@ set -euo pipefail
 REGION="${REGION:-us-east-2}"
 TYPE="${TYPE:-m5.xlarge}"
 COMMIT="${COMMIT:-main}"
+JOB="${JOB:-linux-regrade/run_regrade.sh}"
 HERE="$(cd "$(dirname "$0")" && pwd)"
 NAME="stageb-$(date +%s)"
 OUT="$HERE/results-$(date -u +%Y%m%dT%H%M%SZ)"
@@ -62,15 +64,15 @@ SSH=(ssh -i "$KEY" -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile="$O
 for i in $(seq 1 30); do "${SSH[@]}" true 2>/dev/null && break; sleep 10; done
 
 echo "== remote run (live output)"
-"${SSH[@]}" "COMMIT=$COMMIT bash -s" <<'REMOTE' 2>&1 | tee "$OUT/remote.log"
+"${SSH[@]}" "COMMIT=$COMMIT JOB=$JOB bash -s" <<'REMOTE' 2>&1 | tee "$OUT/remote.log"
 set -x
 uptime
 git clone https://github.com/tzlys/passing-tests-wrong-code-artifact ~/repo
 cd ~/repo && git checkout "$COMMIT" && git rev-parse HEAD
 bash linux-regrade/setup_host.sh
 echo "== setup finished; uptime: $(uptime)"
-sg docker -c "bash linux-regrade/run_regrade.sh"
-echo "== regrade finished; uptime: $(uptime)"
+sg docker -c "bash $JOB"
+echo "== job finished; uptime: $(uptime)"
 ls -la ~/stageb-linux-*.tar.gz
 REMOTE
 
@@ -79,3 +81,6 @@ scp -i "$KEY" -o UserKnownHostsFile="$OUT/known_hosts" "ubuntu@$IP:~/stageb-linu
 for f in "$OUT"/stageb-linux-*.tar.gz; do tar xzf "$f" -C "$OUT"; done
 S=$(ls "$OUT"/stageb-linux-*/summary.json 2>/dev/null | head -1)
 [ -n "$S" ] && { echo "== summary"; cat "$S"; }
+S1=$(ls "$OUT"/stageb-linux-supp01-*/supplement-01.json 2>/dev/null | head -1)
+[ -n "$S1" ] && { echo "== supplement-01"; python3 -c "import json,sys;d=json.load(open(sys.argv[1]));d.pop('raw');print(json.dumps(d,indent=2))" "$S1"; }
+true
