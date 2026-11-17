@@ -60,6 +60,11 @@ for i in $(seq 1 270); do               # up to ~4.5 hours
   S=$(printf '%s' "$C" | grep -o 'STAGEB-STATUS [a-z-]*' | tail -1 || true)
   STATE=$(aws ec2 describe-instances --region "$REGION" --instance-ids "$IID" --query 'Reservations[0].Instances[0].State.Name' --output text)
   printf '\r[%3d min] %-30s state=%-12s' "$i" "${S:-booting}" "$STATE"
+  if printf '%s' "$C" | grep -q 'STAGEB-STATUS diag-done\|STAGEB-STATUS failed-see-log'; then
+    echo; echo "job stopped early; diagnostics from the console:"
+    printf '%s' "$C" | tr -d '\r' | sed -n '/STAGEB-STATUS got-signal\|STAGEB-STATUS exit-/,$p' | tail -150 | tee "$OUT/diagnostics.txt"
+    exit 1
+  fi
   if printf '%s' "$C" | grep -q 'STAGEB-END'; then
     printf '%s' "$C" | tr -d '\r' | sed -n '/STAGEB-BEGIN/,/STAGEB-END/p' | sed '1d;$d' | base64 --decode > "$OUT/key.tgz"
     tar xzf "$OUT/key.tgz" -C "$OUT"

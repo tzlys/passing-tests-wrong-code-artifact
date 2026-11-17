@@ -7,13 +7,20 @@ say() { echo "STAGEB-STATUS $*" | tee /dev/ttyS0; }
 finish() {
   code=$?
   say "exit-$code"
-  if [ ! -f /root/key.tgz ]; then
-    tail -60 /var/log/stageb.log > /dev/ttyS0
-    sleep 900                                # leave time to read the console
-  fi
-  systemctl poweroff
+  [ -f /root/key.tgz ] || { tail -60 /var/log/stageb.log > /dev/ttyS0; say "failed-see-log"; }
+  sleep 30 && systemctl poweroff          # only on a normal end of this script
+}
+onsignal() {
+  trap - EXIT
+  say "got-signal-$1"
+  { echo "---- journal ----"; journalctl -n 120 --no-pager -o short-monotonic; echo "---- log ----"; tail -40 /var/log/stageb.log; } > /dev/ttyS0 2>&1
+  say "diag-done"
+  exit 0                                  # no power-off: the launcher terminates the instance
 }
 trap finish EXIT
+trap 'onsignal TERM' TERM
+trap 'onsignal HUP' HUP
+trap 'onsignal INT' INT
 # Watchdog: power off only if uptime passes 4 hours. If this loop is killed, nothing happens.
 ( while sleep 60; do [ "$(cut -d. -f1 /proc/uptime)" -gt 14400 ] && systemctl poweroff; done ) >/dev/null 2>&1 &
 set -x
