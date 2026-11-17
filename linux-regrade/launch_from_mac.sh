@@ -36,8 +36,8 @@ echo "region=$REGION type=$TYPE ami=$AMI"
 cat > "$OUT/user-data.sh" <<EOF
 #!/bin/bash
 exec > /var/log/stageb.log 2>&1
-shutdown -h +240                      # hard stop after 4 hours
-export HOME=/root USER=root DEBIAN_FRONTEND=noninteractive
+( sleep 14400; poweroff ) >/dev/null 2>&1 &   # hard stop after 4 hours (a plain timer, not a scheduled shutdown)
+export HOME=/root USER=root DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a
 say() { echo "\$@" > /dev/ttyS0; }
 say "STAGEB-STATUS started"
 fail() { say "STAGEB-STATUS failed-\$1"; tail -40 /var/log/stageb.log > /dev/ttyS0; sleep 900; shutdown -h now; exit 1; }
