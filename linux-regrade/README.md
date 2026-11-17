@@ -24,3 +24,17 @@ git clone https://github.com/tzlys/passing-tests-wrong-code-artifact && cd passi
 bash linux-regrade/setup_host.sh && newgrp docker
 bash linux-regrade/run_regrade.sh
 ```
+
+## Results
+
+The run on 2026-11-17 is recorded in
+[`results-2026-11-17/`](results-2026-11-17/). Its summary is
+[`RESULTS.md`](results-2026-11-17/RESULTS.md): the Linux grading agrees with
+macOS on every task, and the reference patches resolve 3 of 3.
+
+`launch_ssh_from_mac.sh` is the launcher that produced it. It starts one EC2
+instance, runs the steps above over SSH, copies the results back, and then
+terminates the instance and deletes its security group and key pair.
+`launch_from_mac.sh` and `ec2_job.sh` are earlier unattended launchers. They
+did not complete; they are kept only for the record.
+

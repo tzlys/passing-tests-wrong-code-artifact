@@ -12,6 +12,9 @@ supports the paper's claims in three layers, from quickest to most complete:
    receipts and verifies every seal.
 3. **Full original packages (Sections III–IV, Tables I–II).** These are shared
    through a private review link, listed under [Full packages](#full-packages).
+4. **Linux regrading of the pilot (Section V-C).** The official SWE-bench
+   harness on Linux agrees with the macOS grading on all three tasks; see
+   [`linux-regrade/results-2026-11-17/RESULTS.md`](linux-regrade/results-2026-11-17/RESULTS.md).
 
 No step needs an account, credentials, network access, a model call or a GPU.
 
@@ -117,6 +120,14 @@ The script:
 Read `README.md`, `RESULTS-PILOT.md` and `EXPOSURE-AUDIT-ALL.md` inside the
 package for the protocol, corrections and verdicts. The model sessions
 themselves cannot be replayed.
+
+The grading was repeated on Linux with the official SWE-bench v4.1.0 harness
+and instance images, with no model call (AMENDMENT-02). The model patches
+resolve 0 of 3 tasks and the reference patches resolve 3 of 3. Each task fails
+the same hidden test as on macOS. 15 of 16 recheck rows match; the other
+reran a test file kept outside the repository on the Mac, which the container
+cannot see. Scripts, raw reports and image digests are in
+[`linux-regrade/`](linux-regrade/).
 
 ## Full packages
 

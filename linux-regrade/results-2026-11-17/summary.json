@@ -1,0 +1,465 @@
+{
+  "psf__requests-3362": {
+    "macos_resolved": false,
+    "macos_f2p_failed": [
+      "tests/test_requests.py::TestRequests::test_response_decode_unicode"
+    ],
+    "macos_p2p_failed": [],
+    "linux_patch_applied": true,
+    "linux_resolved": false,
+    "linux_f2p_failed": [
+      "tests/test_requests.py::TestRequests::test_response_decode_unicode"
+    ],
+    "linux_p2p_failed": [],
+    "resolved_agrees": true,
+    "f2p_failures_agree": true,
+    "p2p_failures_agree": true,
+    "gold_resolved_on_linux": true,
+    "linux_patch_apply_exit": 0,
+    "linux_tree_matches_final_patch": false,
+    "recheck_rows": [
+      {
+        "command": "/bin/zsh -lc \"pwd; rg --files -g 'AGENTS.md' -g '*test*' -g '*requirements*' -g 'tox.ini' -g 'setup.cfg' -g 'models.py' -g 'utils.py' -g 'Makefile' -g 'pytest.i",
+        "macos": [
+          [
+            127,
+            127
+          ],
+          [
+            127,
+            127
+          ]
+        ],
+        "linux": [
+          [
+            127,
+            127
+          ],
+          [
+            127,
+            127
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc 'for p in /AGENTS.md /Users/AGENTS.md /Users/lyseo/AGENTS.md /Users/lyseo/sbwork/AGENTS.md /Users/lyseo/sbwork/psf__requests-3362/AGENTS.md; do if ",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc \"python -m pytest tests/test_requests.py -k 'decode_unicode or response_chunk_size_int' tests/test_utils.py::test_get_encoding_from_headers -q --di",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc \"python - <<'PY'\nimport ast\nimport pytest\npath = 'tests/test_utils.py'\nwith open(path) as source:\n    tree = ast.parse(source.read())\nnodes = [path",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      }
+    ]
+  },
+  "pallets__flask-4045": {
+    "macos_resolved": false,
+    "macos_f2p_failed": [
+      "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots"
+    ],
+    "macos_p2p_failed": [],
+    "linux_patch_applied": true,
+    "linux_resolved": false,
+    "linux_f2p_failed": [
+      "tests/test_blueprints.py::test_route_decorator_custom_endpoint_with_dots"
+    ],
+    "linux_p2p_failed": [],
+    "resolved_agrees": true,
+    "f2p_failures_agree": true,
+    "p2p_failures_agree": true,
+    "gold_resolved_on_linux": true,
+    "linux_patch_apply_exit": 0,
+    "linux_tree_matches_final_patch": false,
+    "recheck_rows": [
+      {
+        "command": "/bin/zsh -lc \"pwd; rg --files -g 'AGENTS.md' -g '*blueprint*' -g '*CHANGES*' -g 'pyproject.toml' -g 'setup.cfg' -g 'tox.ini' -g 'requirements*' -g 'CONTRIBUTING",
+        "macos": [
+          [
+            127,
+            127
+          ],
+          [
+            127,
+            127
+          ]
+        ],
+        "linux": [
+          [
+            127,
+            127
+          ],
+          [
+            127,
+            127
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc \"rg --files --hidden -g AGENTS.md -g '\"'!'\"\\\\.git'; rg -n 'def __init__|dot|ValueError|def register|name_prefix' src/flask/blueprints.py; rg -n 'do",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc \"sed -n '110,220p' src/flask/blueprints.py; sed -n '250,300p' tests/test_blueprints.py; sed -n '850,970p' tests/test_blueprints.py; rg -n 'raise Va",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc \"python -m pytest -q tests/test_blueprints.py::test_dotted_names; rg --files /Users/lyseo/sbwork -g '*werkzeug*whl' -g '*Werkzeug*whl' -g 'pyvenv.c",
+        "macos": [
+          [
+            127,
+            127
+          ],
+          [
+            127,
+            127
+          ]
+        ],
+        "linux": [
+          [
+            127,
+            127
+          ],
+          [
+            127,
+            127
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc 'python -m pytest -q tests/test_blueprints.py::test_dotted_names'",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc 'python -m pytest -q /private/tmp/flask-4045-blueprint-verification/test_nested_blueprints.py -W ignore::DeprecationWarning'",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "same": false,
+        "linux_as_run_equals_forced": true
+      }
+    ]
+  },
+  "pallets__flask-4992": {
+    "macos_resolved": false,
+    "macos_f2p_failed": [
+      "tests/test_config.py::test_config_from_file_toml"
+    ],
+    "macos_p2p_failed": [],
+    "linux_patch_applied": true,
+    "linux_resolved": false,
+    "linux_f2p_failed": [
+      "tests/test_config.py::test_config_from_file_toml"
+    ],
+    "linux_p2p_failed": [],
+    "resolved_agrees": true,
+    "f2p_failures_agree": true,
+    "p2p_failures_agree": true,
+    "gold_resolved_on_linux": true,
+    "linux_patch_apply_exit": 0,
+    "linux_tree_matches_final_patch": false,
+    "recheck_rows": [
+      {
+        "command": "/bin/zsh -lc \"pwd; rg --files -g 'AGENTS.md' -g '*config*' -g '*toml*' -g '*tox*' -g '*requirements*' -g 'CHANGES*' -g 'setup.cfg' -g 'pyproject.toml' -g '.pre-",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc \"cat pyproject.toml; cat tox.ini; head -85 CHANGES.rst; rg -n 'from_file|TOML|toml' docs tests .pre-commit-config.yaml; ls -a\"",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc \"python --version; python -m pip show Flask Werkzeug pytest black flake8 sphinx; rg --files -g 'AGENTS.md' -g '\"'!artwork/**'\"' -g '\"'!docs/_static",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc 'python -m pytest -q tests/test_config.py tests/test_instance_config.py; git diff --check; git diff --stat'",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc 'python -m pytest -q -W ignore::DeprecationWarning --tb=short > /tmp/flask-4992-pytest.log 2>&1; tail -65 /tmp/flask-4992-pytest.log'",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      },
+      {
+        "command": "/bin/zsh -lc 'python -m pytest -q tests/test_config.py tests/test_instance_config.py'",
+        "macos": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "linux": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "same": true,
+        "linux_as_run_equals_forced": true
+      }
+    ]
+  }
+}
