@@ -19,7 +19,7 @@
 set -euo pipefail
 REGION="${REGION:-us-east-2}"
 TYPE="${TYPE:-m5.xlarge}"
-COMMIT="${COMMIT:-b84779e}"   # commit that holds the regrading scripts
+COMMIT="${COMMIT:-main}"   # commit that holds the regrading scripts
 HERE="$(cd "$(dirname "$0")" && pwd)"
 OUT="$HERE/results-$(date -u +%Y%m%dT%H%M%SZ)"
 mkdir -p "$OUT"
@@ -40,11 +40,13 @@ shutdown -h +240                      # hard stop after 4 hours
 export HOME=/root USER=root DEBIAN_FRONTEND=noninteractive
 say() { echo "\$@" > /dev/ttyS0; }
 say "STAGEB-STATUS started"
-apt-get update -y && apt-get install -y git
-git clone https://github.com/tzlys/passing-tests-wrong-code-artifact /root/repo
-cd /root/repo && git checkout $COMMIT && git rev-parse HEAD > /root/commit.txt
+fail() { say "STAGEB-STATUS failed-\$1"; tail -40 /var/log/stageb.log > /dev/ttyS0; sleep 900; shutdown -h now; exit 1; }
+say "STAGEB-STATUS net \$(curl -s -o /dev/null -w '%{http_code}' https://github.com)"
+apt-get update -y && apt-get install -y git || fail apt
+git clone https://github.com/tzlys/passing-tests-wrong-code-artifact /root/repo || fail clone
+cd /root/repo && git checkout $COMMIT && git rev-parse HEAD > /root/commit.txt || fail checkout
 say "STAGEB-STATUS setup"
-bash linux-regrade/setup_host.sh
+bash linux-regrade/setup_host.sh || fail setup
 say "STAGEB-STATUS regrade"
 bash linux-regrade/run_regrade.sh || say "STAGEB-STATUS regrade-failed"
 RES=\$(ls -d /root/stageb-linux-*/ 2>/dev/null | head -1)
@@ -67,6 +69,8 @@ IID=$(aws ec2 run-instances --region "$REGION" --image-id "$AMI" --instance-type
   --user-data "file://$OUT/user-data.sh" --query 'Instances[0].InstanceId' --output text)
 echo "instance=$IID   (started $(date))"
 echo "$IID" > "$OUT/instance-id.txt"
+aws ec2 describe-instances --region "$REGION" --instance-ids "$IID" \
+  --query 'Reservations[0].Instances[0].{subnet:SubnetId,vpc:VpcId,publicIp:PublicIpAddress,state:State.Name}' --output text
 trap 'echo; echo "terminating $IID"; aws ec2 terminate-instances --region "$REGION" --instance-ids "$IID" >/dev/null' EXIT
 
 for i in $(seq 1 270); do               # up to ~4.5 hours
@@ -82,6 +86,11 @@ for i in $(seq 1 270); do               # up to ~4.5 hours
     [ -f "$OUT/key/summary.json" ] && cat "$OUT/key/summary.json" | head -80
     exit 0
   fi
-  if [ "$STATE" = "terminated" ]; then echo; echo "instance ended without results; console tail:"; printf '%s' "$C" | tail -40; exit 1; fi
+  [ -n "$C" ] && printf '%s' "$C" > "$OUT/console-latest.txt"
+  if [ "$STATE" = "shutting-down" ] || [ "$STATE" = "terminated" ]; then
+    echo; echo "instance ended without results."
+    aws ec2 describe-instances --region "$REGION" --instance-ids "$IID" \
+      --query 'Reservations[0].Instances[0].{reason:StateReason,transition:StateTransitionReason,subnet:SubnetId,publicIp:PublicIpAddress}' | tee "$OUT/state-reason.json"
+    echo "console tail:"; tail -40 "$OUT/console-latest.txt" 2>/dev/null; exit 1; fi
 done
 echo; echo "timed out waiting for results"; exit 1
