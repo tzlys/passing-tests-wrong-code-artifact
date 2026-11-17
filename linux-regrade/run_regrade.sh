@@ -10,7 +10,7 @@ mkdir -p "$OUT" && cd "$OUT"
 exec > >(tee -a "$OUT/console.log") 2>&1
 IDS="psf__requests-3362 pallets__flask-4045 pallets__flask-4992"
 
-echo "== host"; uname -a; docker version --format '{{.Server.Version}}'; "$PY" -m pip show swebench | head -3
+echo "== host"; uname -a; docker version --format '{{.Server.Version}}'; "$PY" -m pip show swebench | sed -n 1,3p
 tar xzf "$REPO/packages/stage-b-review-artifact.tar.gz"
 ART="$OUT/stage-b-review-artifact"
 ( cd "$ART" && "$PY" -I -B review_stage_b.py | tail -1 )
