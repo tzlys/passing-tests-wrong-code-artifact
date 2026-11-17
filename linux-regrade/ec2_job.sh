@@ -14,6 +14,8 @@ finish() {
   systemctl poweroff
 }
 trap finish EXIT
+# Watchdog: power off only if uptime passes 4 hours. If this loop is killed, nothing happens.
+( while sleep 60; do [ "$(cut -d. -f1 /proc/uptime)" -gt 14400 ] && systemctl poweroff; done ) >/dev/null 2>&1 &
 set -x
 say started
 say "net $(curl -s -o /dev/null -w '%{http_code}' https://github.com)"

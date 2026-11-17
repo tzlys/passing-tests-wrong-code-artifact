@@ -36,10 +36,9 @@ echo "region=$REGION type=$TYPE ami=$AMI"
 cat > "$OUT/user-data.sh" <<EOF
 #!/bin/bash
 # Keep package installs from restarting services, then run the job as its own systemd unit
-# (outside cloud-init), with a separate 4-hour power-off timer.
+# (outside cloud-init). The 4-hour limit is an uptime watchdog inside ec2_job.sh.
 mkdir -p /etc/needrestart/conf.d
 echo '\$nrconf{restart} = "l";' > /etc/needrestart/conf.d/99-stageb.conf
-systemd-run --on-active=4h --unit=stageb-hardstop /bin/systemctl poweroff
 systemd-run --unit=stageb --setenv=COMMIT=$COMMIT /bin/bash -c \
   "curl -fsSL https://raw.githubusercontent.com/tzlys/passing-tests-wrong-code-artifact/$COMMIT/linux-regrade/ec2_job.sh -o /root/job.sh && bash /root/job.sh"
 EOF
