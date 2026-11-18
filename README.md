@@ -2,7 +2,7 @@
 
 This is the reviewer artifact for the AGENT 2027 submission *When Passing
 Tests Support the Wrong Code: A Controlled Audit of Agent Evidence*. It
-supports the paper's claims in three layers, from quickest to most complete:
+supports the paper's claims in five parts, from quickest to most complete:
 
 1. **One case, four steps (start here, about 5 minutes).** The saved records of
    one primary case show the failure from start to finish. Reading them needs
@@ -15,6 +15,9 @@ supports the paper's claims in three layers, from quickest to most complete:
 4. **Linux regrading of the pilot (Section V-C).** The official SWE-bench
    harness on Linux agrees with the macOS grading on all three tasks; see
    [`linux-regrade/results-2026-11-17/RESULTS.md`](linux-regrade/results-2026-11-17/RESULTS.md).
+5. **Taxonomy (Section VI, Table IV).** The post-hoc coding behind Table IV,
+   with event references into the Stage B package, is in
+   [`taxonomy/TAXONOMY-CODING.md`](taxonomy/TAXONOMY-CODING.md).
 
 No step needs an account, credentials, network access, a model call or a GPU.
 
