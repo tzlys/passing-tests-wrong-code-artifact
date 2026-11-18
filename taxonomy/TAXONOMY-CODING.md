@@ -43,7 +43,7 @@ of the Stage B package.
 | Class | requests-3362 | flask-4045 | flask-4992 | Evidence |
 |---|---|---|---|---|
 | O1, O2, T1, B1 | not observed | not observed | not observed | Table III: no temporal or origin mismatch; 3 processes overlapped a write without a mismatch |
-| O3 | – | **yes** | – | 4045 ev. 126 writes `/private/tmp/.../test_nested_blueprints.py`; ev. 130 runs it (pass). Linux rerun: SUPPLEMENT-01 |
+| O3 | – | **yes** | – | 4045 ev. 126 writes `/private/tmp/.../test_nested_blueprints.py`; ev. 130 runs it (pass). SUPPLEMENT-01 restores the file in the official Linux image, where it passes 4/4; without the file, all 4 runs exit 4 |
 | B3 | – | **flagged** | **flagged** | 4045 ev. 91 `pytest …; rg …`; 4992 ev. 97 `pytest … > log; tail -65 log` (exit 0 with 7 failures). MemTrace returned `UNRELIABLE_EXIT_STATUS` (4045 ev. 117, 4992 ev. 132), and the agent reran without the pipe. Caught, not accepted. |
 | A1 behavior | **yes** | – | – | Without a known encoding, the agent keeps bytes (ev. 65, 126). The hidden test expects `str` |
 | A2 scope | – | **yes** | – | The agent rejects dotted blueprint names. The reference also rejects dotted endpoint names; hidden test `test_route_decorator_custom_endpoint_with_dots` |

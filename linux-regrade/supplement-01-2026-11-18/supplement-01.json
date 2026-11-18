@@ -1,0 +1,96 @@
+{
+  "supplement": "SUPPLEMENT-01 (post-hoc, after AMENDMENT-02 results)",
+  "recovered_file": {
+    "source": "runs/pallets__flask-4045/observable-events.jsonl line 126 (0-based), item exec-d13be5af-1fe2-49c1-9f71-6b19e28425c1",
+    "macos_text_sha256": "2982462d1933379460652a164d40e9879ad3c881b94f35683e75112edb8796da",
+    "linux_text_sha256": "260692f23c9f62b28bab7139d2b215aa043fd66e5b39b8717bc09ab7a28f3465",
+    "rewrite": "\"/Users/lyseo/sbwork/pallets__flask-4045/repo\" -> \"/testbed\" (AMENDMENT-02 rule, applied to the file text)"
+  },
+  "file_sha256_in_container": "260692f23c9f62b28bab7139d2b215aa043fd66e5b39b8717bc09ab7a28f3465",
+  "image": "swebench/sweb.eval.x86_64.pallets_1776_flask-4045:latest",
+  "image_id": "sha256:1425b0801ddf4b2607e552e56516cce3d389bab0a3ce06f58e6fa6a7835c703c",
+  "image_id_matches_amendment02": true,
+  "patch_apply_exit": 0,
+  "patch_apply_tail": "warning: CHANGES.rst has type 100755, expected 100644\nwarning: src/flask/blueprints.py has type 100755, expected 100644\nwarning: tests/test_blueprints.py has type 100755, expected 100644\n",
+  "python_flask_werkzeug": "3.9.20 2.0.1.dev0 2.3.7",
+  "command_macos": "/bin/zsh -lc 'python -m pytest -q /private/tmp/flask-4045-blueprint-verification/test_nested_blueprints.py -W ignore::DeprecationWarning'",
+  "command_linux": "bash -c 'python -m pytest -q /private/tmp/flask-4045-blueprint-verification/test_nested_blueprints.py -W ignore::DeprecationWarning'",
+  "macos": {
+    "as_run": [
+      0,
+      0
+    ],
+    "source_forced": [
+      0,
+      0
+    ]
+  },
+  "linux_without_file": {
+    "as_run": [
+      4,
+      4
+    ],
+    "source_forced": [
+      4,
+      4
+    ]
+  },
+  "linux_with_file": {
+    "as_run": [
+      0,
+      0
+    ],
+    "source_forced": [
+      0,
+      0
+    ]
+  },
+  "raw": {
+    "without_file": {
+      "as_run": [
+        {
+          "exit": 4,
+          "tail": "\nno tests ran in 0.00s\nERROR: file or directory not found: /private/tmp/flask-4045-blueprint-verification/test_nested_blueprints.py\n\n"
+        },
+        {
+          "exit": 4,
+          "tail": "\nno tests ran in 0.00s\nERROR: file or directory not found: /private/tmp/flask-4045-blueprint-verification/test_nested_blueprints.py\n\n"
+        }
+      ],
+      "source_forced": [
+        {
+          "exit": 4,
+          "tail": "\nno tests ran in 0.00s\nERROR: file or directory not found: /private/tmp/flask-4045-blueprint-verification/test_nested_blueprints.py\n\n"
+        },
+        {
+          "exit": 4,
+          "tail": "\nno tests ran in 0.00s\nERROR: file or directory not found: /private/tmp/flask-4045-blueprint-verification/test_nested_blueprints.py\n\n"
+        }
+      ]
+    },
+    "with_file": {
+      "as_run": [
+        {
+          "exit": 0,
+          "tail": ".                                                                        [100%]\n1 passed in 0.14s\n"
+        },
+        {
+          "exit": 0,
+          "tail": ".                                                                        [100%]\n1 passed in 0.14s\n"
+        }
+      ],
+      "source_forced": [
+        {
+          "exit": 0,
+          "tail": ".                                                                        [100%]\n1 passed in 0.14s\n"
+        },
+        {
+          "exit": 0,
+          "tail": ".                                                                        [100%]\n1 passed in 0.14s\n"
+        }
+      ]
+    }
+  },
+  "control_reproduces_amendment02": true,
+  "with_file_same_as_macos": true
+}
