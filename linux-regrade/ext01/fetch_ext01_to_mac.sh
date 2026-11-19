@@ -5,8 +5,8 @@
 #   ABORT=1 bash fetch_ext01_to_mac.sh    # copy whatever exists, then delete everything now
 set -uo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
-STATE="$HERE/ext01-state.env"
-[ -f "$STATE" ] || { echo "No EXT-01 state file; nothing is running from this folder."; exit 0; }
+STATE="$HERE/ext01-state${SHARD:+-$SHARD}.env"
+[ -f "$STATE" ] || { echo "No EXT-01 state file ($STATE); nothing is running for shard ${SHARD:-none}."; exit 0; }
 # shellcheck disable=SC1090
 source "$STATE"
 A=(--region "$REGION")
@@ -39,7 +39,7 @@ if "${SSH[@]}" 'test -f ~/ext01-out/DONE'; then
   echo "== finished: copying results"
   scp -i "$KEY" -o UserKnownHostsFile="$OUT/known_hosts" "${RUSER:-ubuntu}@$IP:~/ext01-results.tar.gz" "$OUT/" \
     && tar xzf "$OUT/ext01-results.tar.gz" -C "$OUT" \
-    && { echo "== results"; cat "$OUT/ext01-out/RESULTS-EXT01.md"; cleanup_all; } \
+    && { echo "== results"; cat "$OUT/ext01-out/RESULTS-EXT01.md" 2>/dev/null || tail -6 "$OUT/ext01-out/progress.txt"; cleanup_all; } \
     || echo "Copy failed; the instance is left running. Run this script again."
 elif [ "${ABORT:-0}" = 1 ]; then
   echo "== aborting: copying partial outputs"

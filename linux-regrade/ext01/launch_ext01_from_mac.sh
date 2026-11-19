@@ -13,12 +13,15 @@
 set -euo pipefail
 REGION="${REGION:-us-east-2}"
 TYPE="${TYPE:-m5.4xlarge}"
+SHARD="${SHARD:-}"                      # stage-2b shard name, e.g. A
+STAGE2="${STAGE2:-ext01_stage2.sh}"
+SHARD_ENTRIES="${SHARD_ENTRIES:-}"; REP_EXTRA="${REP_EXTRA:-}"
 COMMIT="${COMMIT:?set COMMIT to the repository commit to run}"
 HERE="$(cd "$(dirname "$0")" && pwd)"
-STATE="$HERE/ext01-state.env"
+STATE="$HERE/ext01-state${SHARD:+-$SHARD}.env"
 [ -e "$STATE" ] && { echo "An EXT-01 instance seems to exist already ($STATE). Run fetch_ext01_to_mac.sh first."; exit 1; }
-NAME="ext01-$(date +%s)"
-OUT="$HERE/results-ext01-$(date -u +%Y%m%dT%H%M%SZ)"
+NAME="ext01${SHARD:+-$SHARD}-$(date +%s)"
+OUT="$HERE/results-ext01${SHARD:+-$SHARD}-$(date -u +%Y%m%dT%H%M%SZ)"
 KEY="$HERE/.$NAME.pem"
 mkdir -p "$OUT"
 A=(--region "$REGION")
@@ -53,7 +56,7 @@ AMI=$(aws ec2 describe-images "${A[@]}" --owners amazon \
 RUSER=ec2-user
 VPC=$(aws ec2 describe-vpcs "${A[@]}" --filters Name=isDefault,Values=true --query 'Vpcs[0].VpcId' --output text)
 MYIP=$(curl -s https://checkip.amazonaws.com | tr -d '[:space:]')
-echo "region=$REGION type=$TYPE ami=$AMI vpc=$VPC myip=$MYIP commit=$COMMIT"
+echo "region=$REGION type=$TYPE ami=$AMI vpc=$VPC myip=$MYIP commit=$COMMIT shard=${SHARD:-none} stage2=$STAGE2 entries=[$SHARD_ENTRIES] extra=[$REP_EXTRA]"
 
 aws ec2 create-key-pair "${A[@]}" --key-name "$NAME" --query KeyMaterial --output text > "$KEY"
 chmod 600 "$KEY"
@@ -64,7 +67,7 @@ IID=$(aws ec2 run-instances "${A[@]}" --image-id "$AMI" --instance-type "$TYPE" 
   --key-name "$NAME" --security-group-ids "$SG" \
   --instance-initiated-shutdown-behavior terminate \
   --block-device-mappings '[{"DeviceName":"/dev/xvda","Ebs":{"VolumeSize":300,"VolumeType":"gp3","Iops":6000,"Throughput":500,"DeleteOnTermination":true}}]' \
-  --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=ext01}]' \
+  --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$NAME}]" \
   --query 'Instances[0].InstanceId' --output text)
 echo "instance=$IID"
 aws ec2 wait instance-running "${A[@]}" --instance-ids "$IID"
@@ -97,9 +100,10 @@ REMOTE
 [ "${PIPESTATUS[0]}" = 0 ] || { echo "stage 1 failed"; exit 1; }
 
 echo "== starting stage 2 detached"
-"${SSH[@]}" 'sg docker -c "nohup setsid bash ~/repo/linux-regrade/ext01/ext01_stage2.sh > ~/ext01-stage2.nohup 2>&1 < /dev/null &"; sleep 5; cat ~/ext01-out/STATUS; tail -3 ~/ext01-out/progress.txt'
+REMOTE2="cd ~ && SHARD_ENTRIES='$SHARD_ENTRIES' REP_EXTRA='$REP_EXTRA' nohup setsid bash ~/repo/linux-regrade/ext01/$STAGE2 > ~/ext01-stage2.nohup 2>&1 < /dev/null &"
+"${SSH[@]}" "sg docker -c \"$REMOTE2\"; sleep 8; cat ~/ext01-out/STATUS; tail -3 ~/ext01-out/progress.txt"
 DETACHED=1
 echo
 echo "Stage 2 is running on AWS. Your Mac can sleep now."
-echo "Check progress or fetch results later with:  bash $HERE/fetch_ext01_to_mac.sh"
+echo "Check progress or fetch results later with:  ${SHARD:+SHARD=$SHARD }bash $HERE/fetch_ext01_to_mac.sh"
 echo "Fail-safe: the instance terminates itself about 14 h from now."

@@ -22,3 +22,31 @@ No model is called.
   repositories (`setup_host_al2023.sh`: docker, git, python3.11), using the same
   SWE-bench v4.1.0 release. Every harness run happens inside the official
   SWE-bench images, so the host OS does not affect test outcomes.
+- **2026-11-19, 11:00. Docker Hub pull failures in the first full run.**
+  - **What happened.** Entries 1 and 3 ran completely. In entry 2, 7 records got
+    no G log because the Docker API timed out while 12 workers pulled at once.
+    In entries 4 to 7, every record failed with `No such image`: anonymous
+    Docker Hub pulls are limited (100 per 6 hours per IP), and stage 2 deleted
+    images after each entry, which forced extra pulls. Because these failures
+    ran into the confirmation reruns, the 3 first-pass divergent records were
+    never rerun. The reported "0 confirmed" therefore means "not confirmed",
+    not "refuted".
+  - **Correction** (`ext01_stage2b.sh`, `launch_ext01_shards.sh`). The work is
+    split over three hosts, each with its own IP and pull quota:
+    - shard A: entries 4 and 5;
+    - shard B: entries 6 and 7;
+    - shard C: entry 2, plus confirmation reruns of the first-run divergent
+      records `1:django__django-12856` and `3:pallets__flask-4045`.
+
+    Each shard pulls every needed image once, in sequence and with retries,
+    before running the harness. It never prunes images and uses 6 workers.
+  - **Merge rule**, fixed now, before any shard result exists
+    (`ext01_merge.py`, `plan.json`). Each entry is taken whole from one source:
+    - entries 1 and 3: first pass from the first run, reruns from shard C;
+    - entry 2: everything from shard C;
+    - entries 4 and 5: everything from shard A;
+    - entries 6 and 7: everything from shard B.
+
+    All sources must have byte-identical `sample.json` and `data/`.
+  - **Unchanged.** Sampling, conditions and classification rules are as in the
+    protocol.
