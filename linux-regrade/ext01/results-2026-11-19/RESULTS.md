@@ -97,3 +97,7 @@ notes the manual one.
 - `screen.json` and `sample.json`: the funnel and the sample.
 - `progress-*.txt` and `repo-commit-*.txt`: logs and commits for the first run and each shard.
 - `confirmed-logs.tar.gz`: for every confirmed record, the harness test output for M, G and both reruns, and the agent's test blocks.
+
+## Post-hoc coding of the divergences
+
+See [`DIVERGENCE-CODING.md`](DIVERGENCE-CODING.md). It covers what each confirmed divergent test encodes, a leave-one-submission-out rate and a Fisher test. It was added after the merged results and is not part of the pre-registered protocol.
