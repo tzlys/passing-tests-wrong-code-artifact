@@ -1,0 +1,10 @@
+{
+  "_note": "Source labels per entry index (sorted data/*.jsonl). 'first' = first full run (results-ext01-20261119T080404Z); A/B/C = stage-2b shards. Fixed 2026-11-19 before any shard result existed.",
+  "1": {"main": "first", "rep": "C"},
+  "2": {"main": "C", "rep": "C"},
+  "3": {"main": "first", "rep": "C"},
+  "4": {"main": "A", "rep": "A"},
+  "5": {"main": "A", "rep": "A"},
+  "6": {"main": "B", "rep": "B"},
+  "7": {"main": "B", "rep": "B"}
+}
