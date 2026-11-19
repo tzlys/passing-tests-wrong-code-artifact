@@ -4,7 +4,7 @@
 #   COMMIT=<sha> bash launch_ext01_from_mac.sh     # start (Mac must be awake ~15 min)
 #   bash fetch_ext01_to_mac.sh                     # later: shows progress, or fetches results and cleans up
 #
-# Uses your existing AWS CLI login. It creates one m5.4xlarge Ubuntu 22.04 instance
+# Uses your existing AWS CLI login. It creates one m5.4xlarge Amazon Linux 2023 instance
 # with a 300 GB disk, a key pair (private key kept in this folder until fetch) and a
 # security group that allows SSH from your current IP only.
 # Fail-safe: the instance powers off and is TERMINATED automatically 14 hours after
@@ -46,9 +46,11 @@ if ! PROBE=$(aws s3 ls "s3://swe-bench-submissions/lite/20250526_sweagent_claude
 fi
 printf 'probe ok: %s\n' "${PROBE:0:200}"
 
-AMI=$(aws ec2 describe-images "${A[@]}" --owners 099720109477 \
-  --filters 'Name=name,Values=ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*' 'Name=state,Values=available' \
+# Amazon Linux 2023: its package repositories are hosted by AWS (Ubuntu mirrors were inconsistent on 2026-11-19).
+AMI=$(aws ec2 describe-images "${A[@]}" --owners amazon \
+  --filters 'Name=name,Values=al2023-ami-2023.*-kernel-*-x86_64' 'Name=state,Values=available' \
   --query 'sort_by(Images,&CreationDate)[-1].ImageId' --output text)
+RUSER=ec2-user
 VPC=$(aws ec2 describe-vpcs "${A[@]}" --filters Name=isDefault,Values=true --query 'Vpcs[0].VpcId' --output text)
 MYIP=$(curl -s https://checkip.amazonaws.com | tr -d '[:space:]')
 echo "region=$REGION type=$TYPE ami=$AMI vpc=$VPC myip=$MYIP commit=$COMMIT"
@@ -61,7 +63,7 @@ aws ec2 authorize-security-group-ingress "${A[@]}" --group-id "$SG" --protocol t
 IID=$(aws ec2 run-instances "${A[@]}" --image-id "$AMI" --instance-type "$TYPE" \
   --key-name "$NAME" --security-group-ids "$SG" \
   --instance-initiated-shutdown-behavior terminate \
-  --block-device-mappings '[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":300,"VolumeType":"gp3","Iops":6000,"Throughput":500,"DeleteOnTermination":true}}]' \
+  --block-device-mappings '[{"DeviceName":"/dev/xvda","Ebs":{"VolumeSize":300,"VolumeType":"gp3","Iops":6000,"Throughput":500,"DeleteOnTermination":true}}]' \
   --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=ext01}]' \
   --query 'Instances[0].InstanceId' --output text)
 echo "instance=$IID"
@@ -75,19 +77,21 @@ SG=$SG
 IP=$IP
 KEY=$KEY
 OUT=$OUT
+RUSER=$RUSER
 EOS
 echo "ip=$IP; waiting for SSH"
 SSH=(ssh -i "$KEY" -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile="$OUT/known_hosts" \
-     -o ServerAliveInterval=30 -o ConnectTimeout=10 "ubuntu@$IP")
+     -o ServerAliveInterval=30 -o ConnectTimeout=10 "$RUSER@$IP")
 for i in $(seq 1 30); do "${SSH[@]}" true 2>/dev/null && break; sleep 10; done
 
 echo "== remote setup and stage 1 (live output)"
 "${SSH[@]}" "COMMIT=$COMMIT bash -s" <<'REMOTE' 2>&1 | tee "$OUT/remote-stage1.log"
 set -ex
 sudo shutdown -h +840 "EXT-01 fail-safe: terminating 14 h after start"
+for i in 1 2 3; do sudo dnf install -y git && break; sleep 20; done
 git clone https://github.com/tzlys/passing-tests-wrong-code-artifact ~/repo
 cd ~/repo && git checkout "$COMMIT" && git rev-parse HEAD
-bash linux-regrade/setup_host.sh
+bash linux-regrade/setup_host_al2023.sh
 sg docker -c "bash linux-regrade/ext01/ext01_stage1.sh"
 REMOTE
 [ "${PIPESTATUS[0]}" = 0 ] || { echo "stage 1 failed"; exit 1; }

@@ -30,21 +30,21 @@ fi
 # Allow SSH from the Mac's current IP, in case it changed since launch.
 MYIP=$(curl -s https://checkip.amazonaws.com | tr -d '[:space:]')
 aws ec2 authorize-security-group-ingress "${A[@]}" --group-id "$SG" --protocol tcp --port 22 --cidr "$MYIP/32" >/dev/null 2>&1 || true
-SSH=(ssh -i "$KEY" -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile="$OUT/known_hosts" -o ConnectTimeout=15 "ubuntu@$IP")
+SSH=(ssh -i "$KEY" -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile="$OUT/known_hosts" -o ConnectTimeout=15 "${RUSER:-ubuntu}@$IP")
 
 echo "== progress"
 "${SSH[@]}" 'cat ~/ext01-out/STATUS 2>/dev/null; tail -8 ~/ext01-out/progress.txt 2>/dev/null; uptime'
 
 if "${SSH[@]}" 'test -f ~/ext01-out/DONE'; then
   echo "== finished: copying results"
-  scp -i "$KEY" -o UserKnownHostsFile="$OUT/known_hosts" "ubuntu@$IP:~/ext01-results.tar.gz" "$OUT/" \
+  scp -i "$KEY" -o UserKnownHostsFile="$OUT/known_hosts" "${RUSER:-ubuntu}@$IP:~/ext01-results.tar.gz" "$OUT/" \
     && tar xzf "$OUT/ext01-results.tar.gz" -C "$OUT" \
     && { echo "== results"; cat "$OUT/ext01-out/RESULTS-EXT01.md"; cleanup_all; } \
     || echo "Copy failed; the instance is left running. Run this script again."
 elif [ "${ABORT:-0}" = 1 ]; then
   echo "== aborting: copying partial outputs"
   "${SSH[@]}" 'cd ~ && tar czf ext01-partial.tar.gz --exclude=ext01-out/raw ext01-out' \
-    && scp -i "$KEY" -o UserKnownHostsFile="$OUT/known_hosts" "ubuntu@$IP:~/ext01-partial.tar.gz" "$OUT/"
+    && scp -i "$KEY" -o UserKnownHostsFile="$OUT/known_hosts" "${RUSER:-ubuntu}@$IP:~/ext01-partial.tar.gz" "$OUT/"
   cleanup_all
 else
   echo "Still running. Run this script again later (or ABORT=1 to stop and clean up)."

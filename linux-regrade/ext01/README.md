@@ -15,3 +15,10 @@ No model is called.
   regional EC2 Ubuntu mirror returned 503, so `python3-venv` could not be
   installed. No data had been downloaded and no harness run had started.
   `setup_host.sh` now retries apt and falls back to `archive.ubuntu.com`.
+- **2026-11-19, 03:05.** The second launch stopped during host setup again.
+  Ubuntu's main archive served an inconsistent index: `python3-venv` required an
+  older `python3` than the image had, and `libonig5` was not installable. No data
+  had been downloaded. The host now runs Amazon Linux 2023 with Amazon's own
+  repositories (`setup_host_al2023.sh`: docker, git, python3.11), using the same
+  SWE-bench v4.1.0 release. Every harness run happens inside the official
+  SWE-bench images, so the host OS does not affect test outcomes.
