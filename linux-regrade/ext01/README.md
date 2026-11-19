@@ -8,3 +8,10 @@
 - `launch_ext01_from_mac.sh` and `fetch_ext01_to_mac.sh`: start the run on AWS, and later fetch the results and clean up. The Mac does not need to stay awake in between.
 
 No model is called.
+
+## Infrastructure corrections (no change to the protocol)
+
+- **2026-11-19, 02:40.** The first launch stopped during host setup because the
+  regional EC2 Ubuntu mirror returned 503, so `python3-venv` could not be
+  installed. No data had been downloaded and no harness run had started.
+  `setup_host.sh` now retries apt and falls back to `archive.ubuntu.com`.
