@@ -1,0 +1,129 @@
+{
+  "entries": 24,
+  "dataset_sha": "6ec7bb89b9342f664a54a6e0a6ea6501d3437cc2",
+  "per_entry": {
+    "20231010_rag_claude2": {
+      "listed": 0
+    },
+    "20231010_rag_gpt35": {
+      "listed": 0
+    },
+    "20231010_rag_swellama13b": {
+      "listed": 0
+    },
+    "20231010_rag_swellama7b": {
+      "listed": 0
+    },
+    "20240402_rag_claude3opus": {
+      "listed": 0
+    },
+    "20240402_rag_gpt4": {
+      "listed": 0
+    },
+    "20240402_sweagent_claude3opus": {
+      "listed": 0
+    },
+    "20240402_sweagent_gpt4": {
+      "listed": 0
+    },
+    "20240615_appmap-navie_gpt4o": {
+      "listed": 0
+    },
+    "20240617_moatless_gpt4o": {
+      "listed": 0
+    },
+    "20240620_sweagent_claude3.5sonnet": {
+      "listed": 289,
+      "no_py_test_block": 156,
+      "included_unresolved": 100,
+      "included_resolved": 28,
+      "missing_file": 2,
+      "no_source_block": 3
+    },
+    "20240623_moatless_claude35sonnet": {
+      "listed": 0
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet": {
+      "listed": 267,
+      "included_resolved": 53,
+      "included_unresolved": 120,
+      "no_py_test_block": 87,
+      "no_source_block": 7
+    },
+    "20240728_sweagent_gpt4o": {
+      "listed": 263,
+      "no_py_test_block": 198,
+      "included_unresolved": 50,
+      "included_resolved": 11,
+      "no_source_block": 2,
+      "missing_file": 2
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022": {
+      "listed": 298,
+      "no_py_test_block": 206,
+      "included_unresolved": 51,
+      "included_resolved": 40,
+      "missing_file": 1
+    },
+    "20241113_navie-2-gpt4o-sonnet": {
+      "listed": 299,
+      "no_py_test_block": 299
+    },
+    "20241117_moatless_claude-3.5-sonnet-20241022": {
+      "listed": 299,
+      "no_py_test_block": 289,
+      "missing_file": 10
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022": {
+      "listed": 294,
+      "no_py_test_block": 95,
+      "included_resolved": 61,
+      "included_unresolved": 121,
+      "no_source_block": 16,
+      "missing_file": 1
+    },
+    "20250111_moatless_deepseek_v3": {
+      "listed": 287,
+      "no_py_test_block": 287
+    },
+    "20250114_moatless_claude-3.5-sonnet-20241022": {
+      "listed": 289,
+      "no_py_test_block": 288,
+      "bad_report": 1
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219": {
+      "listed": 289,
+      "no_py_test_block": 270,
+      "included_unresolved": 16,
+      "included_resolved": 3
+    },
+    "20250306_SWE-Fixer_Qwen2.5-7b-retriever_Qwen2.5-72b-editor": {
+      "listed": 0
+    },
+    "20250310_codefuse-cgm": {
+      "listed": 297,
+      "no_py_test_block": 268,
+      "missing_file": 29
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514": {
+      "listed": 299,
+      "no_py_test_block": 266,
+      "included_unresolved": 18,
+      "included_resolved": 14,
+      "no_source_block": 1
+    }
+  },
+  "exclusions": {
+    "listed": 3470,
+    "no_py_test_block": 2709,
+    "included_unresolved": 476,
+    "included_resolved": 210,
+    "missing_file": 45,
+    "no_source_block": 29,
+    "bad_report": 1
+  },
+  "sampled": {
+    "res": 27,
+    "unres": 84
+  }
+}

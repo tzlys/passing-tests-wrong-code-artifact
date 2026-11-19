@@ -1,0 +1,1304 @@
+{
+  "plan": {
+    "1": {
+      "main": "/tmp/run1/ext01-out",
+      "rep": "/tmp/shC/ext01-out"
+    },
+    "2": {
+      "main": "/tmp/shC/ext01-out",
+      "rep": "/tmp/shC/ext01-out"
+    },
+    "3": {
+      "main": "/tmp/run1/ext01-out",
+      "rep": "/tmp/shC/ext01-out"
+    },
+    "4": {
+      "main": "/tmp/shA/ext01-out",
+      "rep": "/tmp/shA/ext01-out"
+    },
+    "5": {
+      "main": "/tmp/shA/ext01-out",
+      "rep": "/tmp/shA/ext01-out"
+    },
+    "6": {
+      "main": "/tmp/shB/ext01-out",
+      "rep": "/tmp/shB/ext01-out"
+    },
+    "7": {
+      "main": "/tmp/shB/ext01-out",
+      "rep": "/tmp/shB/ext01-out"
+    }
+  },
+  "sample_data_sha256": "beba865133abe894f5c217fd8ba12480890f1f960f4bc4c8a584e1477f63002c",
+  "per_record": {
+    "20240620_sweagent_claude3.5sonnet/pylint-dev__pylint-7080": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/django__django-13710": {
+      "valid": true,
+      "m_pass": 3,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/django__django-17087": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/pytest-dev__pytest-8365": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/pydata__xarray-4493": {
+      "valid": true,
+      "m_pass": 918,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/sympy__sympy-20639": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/django__django-11001": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/sphinx-doc__sphinx-8506": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/pytest-dev__pytest-7373": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/sympy__sympy-12481": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/django__django-12856": {
+      "valid": true,
+      "m_pass": 5,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_create_sql_calls_check_fields (model_fields.test_unique_constraint.UniqueConstraintTests)",
+          "G": "ERROR",
+          "agent_added": true
+        },
+        {
+          "test": "test_remove_sql_calls_check_fields (model_fields.test_unique_constraint.UniqueConstraintTests)",
+          "G": "ERROR",
+          "agent_added": true
+        },
+        {
+          "test": "test_unique_constraint_existing_fields (model_fields.test_unique_constraint.UniqueConstraintTests)",
+          "G": "ERROR",
+          "agent_added": true
+        },
+        {
+          "test": "test_unique_constraint_non_existent_field (model_fields.test_unique_constraint.UniqueConstraintTests)",
+          "G": "ERROR",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "test_create_sql_calls_check_fields (model_fields.test_unique_constraint.UniqueConstraintTests)",
+        "test_remove_sql_calls_check_fields (model_fields.test_unique_constraint.UniqueConstraintTests)",
+        "test_unique_constraint_existing_fields (model_fields.test_unique_constraint.UniqueConstraintTests)",
+        "test_unique_constraint_non_existent_field (model_fields.test_unique_constraint.UniqueConstraintTests)"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/django__django-13401": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/django__django-11964": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/pytest-dev__pytest-5103": {
+      "valid": true,
+      "m_pass": 4,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/sympy__sympy-13915": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240620_sweagent_claude3.5sonnet/pytest-dev__pytest-11143": {
+      "valid": true,
+      "m_pass": 1,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/sympy__sympy-23117": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/django__django-15061": {
+      "valid": true,
+      "m_pass": 13,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/matplotlib__matplotlib-25433": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/scikit-learn__scikit-learn-14087": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/django__django-14017": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/django__django-16816": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/matplotlib__matplotlib-24265": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/sympy__sympy-15011": {
+      "valid": true,
+      "m_pass": 39,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/scikit-learn__scikit-learn-10949": {
+      "valid": true,
+      "m_pass": 1,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_check_array_pandas.py::test_check_array_pandas_dataframe",
+          "G": "FAILED",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "test_check_array_pandas.py::test_check_array_pandas_dataframe"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/sympy__sympy-13146": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/sympy__sympy-19007": {
+      "valid": true,
+      "m_pass": 14,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/sympy__sympy-18199": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/django__django-15695": {
+      "valid": true,
+      "m_pass": 123,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/django__django-15347": {
+      "valid": true,
+      "m_pass": 1,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/sympy__sympy-12236": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet/psf__requests-1963": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-13265": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-11564": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-13925": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-11039": {
+      "valid": true,
+      "m_pass": 89,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-13590": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/pallets__flask-4045": {
+      "valid": true,
+      "m_pass": 10,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "tests/test_blueprints.py::test_blueprint_name_with_dot",
+          "G": "FAILED",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "tests/test_blueprints.py::test_blueprint_name_with_dot"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/scikit-learn__scikit-learn-13497": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-11742": {
+      "valid": true,
+      "m_pass": 10,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-15819": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-15388": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-12908": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/sympy__sympy-19487": {
+      "valid": true,
+      "m_pass": 8,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/pydata__xarray-3364": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-14855": {
+      "valid": true,
+      "m_pass": 13,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-12453": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20240728_sweagent_gpt4o/django__django-14999": {
+      "valid": true,
+      "m_pass": 12,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/django__django-13033": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/django__django-14580": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/scikit-learn__scikit-learn-13584": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/pytest-dev__pytest-7432": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/sympy__sympy-12454": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/matplotlib__matplotlib-25079": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/sympy__sympy-24909": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/psf__requests-2148": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/sympy__sympy-21171": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/pytest-dev__pytest-5221": {
+      "valid": true,
+      "m_pass": 1,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/matplotlib__matplotlib-24265": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/matplotlib__matplotlib-22835": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/django__django-13448": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/pydata__xarray-3364": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/django__django-12113": {
+      "valid": true,
+      "m_pass": 36,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022/sympy__sympy-19487": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/sympy__sympy-13177": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/sympy__sympy-14396": {
+      "valid": true,
+      "m_pass": 44,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/django__django-14787": {
+      "valid": true,
+      "m_pass": 4,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/django__django-13033": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/django__django-14667": {
+      "valid": true,
+      "m_pass": 278,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/django__django-16595": {
+      "valid": true,
+      "m_pass": 38,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/matplotlib__matplotlib-23987": {
+      "valid": true,
+      "m_pass": 107,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/scikit-learn__scikit-learn-10297": {
+      "valid": true,
+      "m_pass": 29,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/sympy__sympy-14024": {
+      "valid": true,
+      "m_pass": 26,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/scikit-learn__scikit-learn-25638": {
+      "valid": true,
+      "m_pass": 10,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/django__django-11964": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/django__django-11848": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/django__django-13660": {
+      "valid": true,
+      "m_pass": 3,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/django__django-11283": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/scikit-learn__scikit-learn-10508": {
+      "valid": true,
+      "m_pass": 20,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022/pydata__xarray-3364": {
+      "valid": true,
+      "m_pass": 35,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "xarray/tests/test_concat.py::TestConcatDataset::test_concat_errors",
+          "G": "FAILED",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "xarray/tests/test_concat.py::TestConcatDataset::test_concat_errors"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/sympy__sympy-18698": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/pytest-dev__pytest-5103": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/pytest-dev__pytest-7168": {
+      "valid": true,
+      "m_pass": 2,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/astropy__astropy-14182": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/sphinx-doc__sphinx-8435": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/matplotlib__matplotlib-25498": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/pydata__xarray-5131": {
+      "valid": true,
+      "m_pass": 34,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/sympy__sympy-22840": {
+      "valid": true,
+      "m_pass": 42,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_cse_MatrixSymbol_indexing",
+          "G": "FAILED",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "test_cse_MatrixSymbol_indexing"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/sphinx-doc__sphinx-11445": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/sphinx-doc__sphinx-8627": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/sympy__sympy-14024": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/sympy__sympy-20322": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/django__django-12113": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/django__django-11049": {
+      "valid": true,
+      "m_pass": 9,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219/django__django-16229": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-15400": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-14787": {
+      "valid": true,
+      "m_pass": 21,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-12856": {
+      "valid": true,
+      "m_pass": 80,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_unique_constraint_pointing_to_m2m_field (invalid_models_tests.test_models.ConstraintsTests)",
+          "G": "FAILED",
+          "agent_added": true
+        },
+        {
+          "test": "test_unique_constraint_pointing_to_missing_field (invalid_models_tests.test_models.ConstraintsTests)",
+          "G": "FAILED",
+          "agent_added": true
+        },
+        {
+          "test": "test_unique_constraint_pointing_to_non_local_field (invalid_models_tests.test_models.ConstraintsTests)",
+          "G": "FAILED",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "test_unique_constraint_pointing_to_m2m_field (invalid_models_tests.test_models.ConstraintsTests)",
+        "test_unique_constraint_pointing_to_missing_field (invalid_models_tests.test_models.ConstraintsTests)",
+        "test_unique_constraint_pointing_to_non_local_field (invalid_models_tests.test_models.ConstraintsTests)"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-16408": {
+      "valid": true,
+      "m_pass": 19,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-15819": {
+      "valid": true,
+      "m_pass": 19,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "Test that multiple foreign keys to the same target model get related_name",
+          "G": "FAILED",
+          "agent_added": false
+        }
+      ],
+      "confirmed_tests": [
+        "Test that multiple foreign keys to the same target model get related_name"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-11910": {
+      "valid": true,
+      "m_pass": 111,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_rename_field_foreign_key_to_field_with_other_changes (migrations.test_autodetector.AutodetectorTests)",
+          "G": "FAILED",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "test_rename_field_foreign_key_to_field_with_other_changes (migrations.test_autodetector.AutodetectorTests)"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/sympy__sympy-21055": {
+      "valid": true,
+      "m_pass": 14,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_arg",
+          "G": "ERROR",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "test_arg"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-13230": {
+      "valid": true,
+      "m_pass": 28,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_rss2_feed_comments_precedence (syndication_tests.tests.SyndicationFeedTest)",
+          "G": "ERROR",
+          "agent_added": true
+        },
+        {
+          "test": "test_rss2_feed_with_comments_via_extra_kwargs (syndication_tests.tests.SyndicationFeedTest)",
+          "G": "ERROR",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "test_rss2_feed_comments_precedence (syndication_tests.tests.SyndicationFeedTest)",
+        "test_rss2_feed_with_comments_via_extra_kwargs (syndication_tests.tests.SyndicationFeedTest)"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-11422": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/sympy__sympy-16281": {
+      "valid": true,
+      "m_pass": 121,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_pretty_product",
+          "G": "FAILED",
+          "agent_added": false
+        }
+      ],
+      "confirmed_tests": [
+        "test_pretty_product"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/psf__requests-2317": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/sphinx-doc__sphinx-8273": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/sympy__sympy-19487": {
+      "valid": true,
+      "m_pass": 27,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "test_sign",
+          "G": "FAILED",
+          "agent_added": false
+        }
+      ],
+      "confirmed_tests": [
+        "test_sign"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/pytest-dev__pytest-5413": {
+      "valid": true,
+      "m_pass": 95,
+      "divergent": true,
+      "divergent_tests": [
+        {
+          "test": "testing/code/test_excinfo.py::test_excinfo_str",
+          "G": "FAILED",
+          "agent_added": false
+        },
+        {
+          "test": "testing/code/test_excinfo.py::test_excinfo_str_multiline",
+          "G": "FAILED",
+          "agent_added": true
+        }
+      ],
+      "confirmed_tests": [
+        "testing/code/test_excinfo.py::test_excinfo_str",
+        "testing/code/test_excinfo.py::test_excinfo_str_multiline"
+      ],
+      "confirmed": true,
+      "rerun_reason": null,
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/django__django-15388": {
+      "valid": false,
+      "reason": "no_test_passes_in_M",
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514/sympy__sympy-16106": {
+      "valid": true,
+      "m_pass": 55,
+      "divergent": false,
+      "divergent_tests": [],
+      "source": {
+        "main": "ext01-out",
+        "rep": "ext01-out"
+      }
+    }
+  },
+  "by_group": {
+    "unresolved": {
+      "sampled": 84,
+      "valid": 30,
+      "divergent_first_pass": 11,
+      "confirmed_divergent": 11,
+      "rate": 0.367,
+      "wilson95": [
+        0.219,
+        0.545
+      ],
+      "confirmed_with_agent_added_test": 8
+    },
+    "resolved": {
+      "sampled": 27,
+      "valid": 15,
+      "divergent_first_pass": 2,
+      "confirmed_divergent": 2,
+      "rate": 0.133,
+      "wilson95": [
+        0.037,
+        0.379
+      ],
+      "confirmed_with_agent_added_test": 2
+    }
+  },
+  "per_entry": {
+    "20240620_sweagent_claude3.5sonnet": {
+      "unresolved": {
+        "valid": 3,
+        "confirmed": 1
+      },
+      "resolved": {
+        "valid": 2,
+        "confirmed": 0
+      }
+    },
+    "20240725_opendevin_codeact_v1.8_claude35sonnet": {
+      "unresolved": {
+        "valid": 5,
+        "confirmed": 1
+      },
+      "resolved": {
+        "valid": 1,
+        "confirmed": 0
+      }
+    },
+    "20240728_sweagent_gpt4o": {
+      "unresolved": {
+        "valid": 3,
+        "confirmed": 1
+      },
+      "resolved": {
+        "valid": 3,
+        "confirmed": 0
+      }
+    },
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022": {
+      "unresolved": {
+        "valid": 2,
+        "confirmed": 0
+      },
+      "resolved": {
+        "valid": 0,
+        "confirmed": 0
+      }
+    },
+    "20241203_KortixAI-AgentPress-sonnet-20241022": {
+      "unresolved": {
+        "valid": 7,
+        "confirmed": 1
+      },
+      "resolved": {
+        "valid": 4,
+        "confirmed": 0
+      }
+    },
+    "20250226_sweagent_claude-3-7-sonnet-20250219": {
+      "unresolved": {
+        "valid": 2,
+        "confirmed": 1
+      },
+      "resolved": {
+        "valid": 2,
+        "confirmed": 0
+      }
+    },
+    "20250526_sweagent_claude-4-sonnet-20250514": {
+      "unresolved": {
+        "valid": 8,
+        "confirmed": 6
+      },
+      "resolved": {
+        "valid": 3,
+        "confirmed": 2
+      }
+    }
+  },
+  "invalid_reasons": {
+    "unresolved": {
+      "no_test_passes_in_M": 54
+    },
+    "resolved": {
+      "no_test_passes_in_M": 12
+    }
+  }
+}

@@ -1,0 +1,40 @@
+2026-11-19T08:07:09Z stage2 start: 7 entries
+2026-11-19T08:07:09Z [1/7] 20240620_sweagent_claude3.5sonnet (16 records) M
+2026-11-19T08:09:33Z [1/7] 20240620_sweagent_claude3.5sonnet G
+2026-11-19T08:11:58Z [1/7] done; disk 2%
+2026-11-19T08:11:58Z [2/7] 20240725_opendevin_codeact_v1.8_claude35sonnet (16 records) M
+2026-11-19T08:15:14Z [2/7] 20240725_opendevin_codeact_v1.8_claude35sonnet G
+2026-11-19T08:18:39Z [2/7] done; disk 2%
+2026-11-19T08:18:39Z [3/7] 20240728_sweagent_gpt4o (16 records) M
+2026-11-19T08:21:30Z [3/7] 20240728_sweagent_gpt4o G
+2026-11-19T08:24:19Z [3/7] done; disk 2%
+2026-11-19T08:24:19Z [4/7] 20241025_OpenHands-CodeAct-2.1-sonnet-20241022 (16 records) M
+2026-11-19T08:24:21Z [4/7] 20241025_OpenHands-CodeAct-2.1-sonnet-20241022 G
+2026-11-19T08:24:23Z [4/7] done; disk 2%
+2026-11-19T08:24:23Z [5/7] 20241203_KortixAI-AgentPress-sonnet-20241022 (16 records) M
+2026-11-19T08:24:25Z [5/7] 20241203_KortixAI-AgentPress-sonnet-20241022 G
+2026-11-19T08:24:28Z [5/7] done; disk 2%
+2026-11-19T08:24:28Z [6/7] 20250226_sweagent_claude-3-7-sonnet-20250219 (15 records) M
+2026-11-19T08:24:30Z [6/7] 20250226_sweagent_claude-3-7-sonnet-20250219 G
+2026-11-19T08:24:32Z [6/7] done; disk 2%
+2026-11-19T08:24:32Z [7/7] 20250526_sweagent_claude-4-sonnet-20250514 (16 records) M
+2026-11-19T08:24:34Z [7/7] 20250526_sweagent_claude-4-sonnet-20250514 G
+2026-11-19T08:24:36Z [7/7] done; disk 2%
+2026-11-19T08:24:36Z phase1 analysis
+{
+  "invalid": 97,
+  "not_divergent": 11,
+  "divergent": 3
+}
+2026-11-19T08:24:42Z rerun [1] 20240620_sweagent_claude3.5sonnet
+2026-11-19T08:24:45Z rerun [2] 20240725_opendevin_codeact_v1.8_claude35sonnet
+2026-11-19T08:24:48Z rerun [3] 20240728_sweagent_gpt4o
+2026-11-19T08:24:52Z final analysis
+# EXT-01 results
+
+| group | sampled | valid | confirmed divergent | rate | Wilson 95% | with agent-added test |
+|---|---|---|---|---|---|---|
+| unresolved | 84 | 9 | 0 | 0.0 | [0.0, 0.299] | 0 |
+| resolved | 27 | 5 | 0 | 0.0 | [-0.0, 0.434] | 0 |
+
+Invalid reasons: `{"unresolved": {"no_test_passes_in_M": 23, "M:ok G:no_log": 4, "M:no_log G:no_log": 48}, "resolved": {"no_test_passes_in_M": 4, "M:ok G:no_log": 3, "M:no_log G:no_log": 15}}`

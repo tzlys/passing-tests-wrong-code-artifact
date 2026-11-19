@@ -1,0 +1,44 @@
+2026-11-19T15:42:48Z stage2b start: entries [4 5] extra reps []; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 100;w=3600 
+2026-11-19T15:43:15Z pulled swebench/sweb.eval.x86_64.django_1776_django-11283:latest
+2026-11-19T15:43:42Z pulled swebench/sweb.eval.x86_64.django_1776_django-11848:latest
+2026-11-19T15:43:46Z pulled swebench/sweb.eval.x86_64.django_1776_django-11964:latest
+2026-11-19T15:43:49Z pulled swebench/sweb.eval.x86_64.django_1776_django-12113:latest
+2026-11-19T15:44:03Z pulled swebench/sweb.eval.x86_64.django_1776_django-13033:latest
+2026-11-19T15:44:07Z pulled swebench/sweb.eval.x86_64.django_1776_django-13448:latest
+2026-11-19T15:44:10Z pulled swebench/sweb.eval.x86_64.django_1776_django-13660:latest
+2026-11-19T15:44:26Z pulled swebench/sweb.eval.x86_64.django_1776_django-14580:latest
+2026-11-19T15:44:29Z pulled swebench/sweb.eval.x86_64.django_1776_django-14667:latest
+2026-11-19T15:44:45Z pulled swebench/sweb.eval.x86_64.django_1776_django-14787:latest
+2026-11-19T15:45:02Z pulled swebench/sweb.eval.x86_64.django_1776_django-16595:latest
+2026-11-19T15:46:06Z pulled swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-22835:latest
+2026-11-19T15:47:11Z pulled swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-23987:latest
+2026-11-19T15:47:35Z pulled swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-24265:latest
+2026-11-19T15:48:41Z pulled swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-25079:latest
+2026-11-19T15:48:52Z pulled swebench/sweb.eval.x86_64.psf_1776_requests-2148:latest
+2026-11-19T15:49:41Z pulled swebench/sweb.eval.x86_64.pydata_1776_xarray-3364:latest
+2026-11-19T15:49:52Z pulled swebench/sweb.eval.x86_64.pytest-dev_1776_pytest-5221:latest
+2026-11-19T15:50:03Z pulled swebench/sweb.eval.x86_64.pytest-dev_1776_pytest-7432:latest
+2026-11-19T15:50:26Z pulled swebench/sweb.eval.x86_64.scikit-learn_1776_scikit-learn-10297:latest
+2026-11-19T15:50:29Z pulled swebench/sweb.eval.x86_64.scikit-learn_1776_scikit-learn-10508:latest
+2026-11-19T15:50:32Z pulled swebench/sweb.eval.x86_64.scikit-learn_1776_scikit-learn-13584:latest
+2026-11-19T15:51:05Z pulled swebench/sweb.eval.x86_64.scikit-learn_1776_scikit-learn-25638:latest
+2026-11-19T15:51:17Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-12454:latest
+2026-11-19T15:51:18Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-13177:latest
+2026-11-19T15:51:20Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-14024:latest
+2026-11-19T15:51:21Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-14396:latest
+2026-11-19T15:51:23Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-19487:latest
+2026-11-19T15:51:25Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-21171:latest
+2026-11-19T15:51:38Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-24909:latest
+2026-11-19T15:51:38Z prepull done; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 70;w=3600 
+2026-11-19T15:51:38Z [4] 20241025_OpenHands-CodeAct-2.1-sonnet-20241022 M
+2026-11-19T15:53:40Z [4] 20241025_OpenHands-CodeAct-2.1-sonnet-20241022 G
+2026-11-19T15:55:30Z [5] 20241203_KortixAI-AgentPress-sonnet-20241022 M
+2026-11-19T15:56:57Z [5] 20241203_KortixAI-AgentPress-sonnet-20241022 G
+2026-11-19T15:58:14Z phase1 analysis
+{
+  "invalid": 98,
+  "not_divergent": 12,
+  "divergent": 1
+}
+2026-11-19T15:58:18Z rerun [5] 20241203_KortixAI-AgentPress-sonnet-20241022
+2026-11-19T15:59:07Z done; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 70;w=3600 

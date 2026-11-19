@@ -1,0 +1,32 @@
+2026-11-19T16:19:57Z stage2b start: entries [2] extra reps [1:django__django-12856 3:pallets__flask-4045]; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 100;w=3600 
+2026-11-19T16:20:24Z pulled swebench/sweb.eval.x86_64.django_1776_django-12856:latest
+2026-11-19T16:20:53Z pulled swebench/sweb.eval.x86_64.django_1776_django-14017:latest
+2026-11-19T16:21:09Z pulled swebench/sweb.eval.x86_64.django_1776_django-15061:latest
+2026-11-19T16:21:12Z pulled swebench/sweb.eval.x86_64.django_1776_django-15347:latest
+2026-11-19T16:21:16Z pulled swebench/sweb.eval.x86_64.django_1776_django-15695:latest
+2026-11-19T16:21:33Z pulled swebench/sweb.eval.x86_64.django_1776_django-16816:latest
+2026-11-19T16:22:38Z pulled swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-24265:latest
+2026-11-19T16:23:43Z pulled swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-25433:latest
+2026-11-19T16:23:58Z pulled swebench/sweb.eval.x86_64.pallets_1776_flask-4045:latest
+2026-11-19T16:24:09Z pulled swebench/sweb.eval.x86_64.psf_1776_requests-1963:latest
+2026-11-19T16:24:32Z pulled swebench/sweb.eval.x86_64.scikit-learn_1776_scikit-learn-10949:latest
+2026-11-19T16:24:56Z pulled swebench/sweb.eval.x86_64.scikit-learn_1776_scikit-learn-14087:latest
+2026-11-19T16:25:08Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-12236:latest
+2026-11-19T16:25:19Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-13146:latest
+2026-11-19T16:25:21Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-15011:latest
+2026-11-19T16:25:23Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-18199:latest
+2026-11-19T16:25:25Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-19007:latest
+2026-11-19T16:25:27Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-23117:latest
+2026-11-19T16:25:27Z prepull done; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 82;w=3600 
+2026-11-19T16:25:27Z [2] 20240725_opendevin_codeact_v1.8_claude35sonnet M
+2026-11-19T16:27:19Z [2] 20240725_opendevin_codeact_v1.8_claude35sonnet G
+2026-11-19T16:29:07Z phase1 analysis
+{
+  "invalid": 105,
+  "not_divergent": 5,
+  "divergent": 1
+}
+2026-11-19T16:29:09Z rerun [2] 20240725_opendevin_codeact_v1.8_claude35sonnet
+2026-11-19T16:29:52Z extra rerun [1] 20240620_sweagent_claude3.5sonnet
+2026-11-19T16:30:48Z extra rerun [3] 20240728_sweagent_gpt4o
+2026-11-19T16:31:31Z done; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 82;w=3600 

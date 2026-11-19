@@ -1,0 +1,46 @@
+2026-11-19T16:01:50Z stage2b start: entries [6 7] extra reps []; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 100;w=3600 
+2026-11-19T16:02:17Z pulled swebench/sweb.eval.x86_64.astropy_1776_astropy-14182:latest
+2026-11-19T16:02:31Z pulled swebench/sweb.eval.x86_64.django_1776_django-11049:latest
+2026-11-19T16:02:59Z pulled swebench/sweb.eval.x86_64.django_1776_django-11422:latest
+2026-11-19T16:03:04Z pulled swebench/sweb.eval.x86_64.django_1776_django-11910:latest
+2026-11-19T16:03:07Z pulled swebench/sweb.eval.x86_64.django_1776_django-12113:latest
+2026-11-19T16:03:22Z pulled swebench/sweb.eval.x86_64.django_1776_django-12856:latest
+2026-11-19T16:03:25Z pulled swebench/sweb.eval.x86_64.django_1776_django-13230:latest
+2026-11-19T16:03:42Z pulled swebench/sweb.eval.x86_64.django_1776_django-14787:latest
+2026-11-19T16:03:46Z pulled swebench/sweb.eval.x86_64.django_1776_django-15388:latest
+2026-11-19T16:03:50Z pulled swebench/sweb.eval.x86_64.django_1776_django-15400:latest
+2026-11-19T16:03:53Z pulled swebench/sweb.eval.x86_64.django_1776_django-15819:latest
+2026-11-19T16:03:59Z pulled swebench/sweb.eval.x86_64.django_1776_django-16229:latest
+2026-11-19T16:04:16Z pulled swebench/sweb.eval.x86_64.django_1776_django-16408:latest
+2026-11-19T16:05:24Z pulled swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-25498:latest
+2026-11-19T16:05:35Z pulled swebench/sweb.eval.x86_64.psf_1776_requests-2317:latest
+2026-11-19T16:06:25Z pulled swebench/sweb.eval.x86_64.pydata_1776_xarray-5131:latest
+2026-11-19T16:06:36Z pulled swebench/sweb.eval.x86_64.pytest-dev_1776_pytest-5103:latest
+2026-11-19T16:06:48Z pulled swebench/sweb.eval.x86_64.pytest-dev_1776_pytest-5413:latest
+2026-11-19T16:06:59Z pulled swebench/sweb.eval.x86_64.pytest-dev_1776_pytest-7168:latest
+2026-11-19T16:07:12Z pulled swebench/sweb.eval.x86_64.sphinx-doc_1776_sphinx-11445:latest
+2026-11-19T16:07:26Z pulled swebench/sweb.eval.x86_64.sphinx-doc_1776_sphinx-8273:latest
+2026-11-19T16:07:27Z pulled swebench/sweb.eval.x86_64.sphinx-doc_1776_sphinx-8435:latest
+2026-11-19T16:07:40Z pulled swebench/sweb.eval.x86_64.sphinx-doc_1776_sphinx-8627:latest
+2026-11-19T16:07:53Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-14024:latest
+2026-11-19T16:07:54Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-16106:latest
+2026-11-19T16:07:56Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-16281:latest
+2026-11-19T16:07:58Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-18698:latest
+2026-11-19T16:08:00Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-19487:latest
+2026-11-19T16:08:02Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-20322:latest
+2026-11-19T16:08:04Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-21055:latest
+2026-11-19T16:08:06Z pulled swebench/sweb.eval.x86_64.sympy_1776_sympy-22840:latest
+2026-11-19T16:08:06Z prepull done; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 69;w=3600 
+2026-11-19T16:08:06Z [6] 20250226_sweagent_claude-3-7-sonnet-20250219 M
+2026-11-19T16:09:53Z [6] 20250226_sweagent_claude-3-7-sonnet-20250219 G
+2026-11-19T16:11:33Z [7] 20250526_sweagent_claude-4-sonnet-20250514 M
+2026-11-19T16:12:53Z [7] 20250526_sweagent_claude-4-sonnet-20250514 G
+2026-11-19T16:14:12Z phase1 analysis
+{
+  "invalid": 96,
+  "not_divergent": 6,
+  "divergent": 9
+}
+2026-11-19T16:14:15Z rerun [6] 20250226_sweagent_claude-3-7-sonnet-20250219
+2026-11-19T16:15:22Z rerun [7] 20250526_sweagent_claude-4-sonnet-20250514
+2026-11-19T16:17:15Z done; quota: ratelimit-limit: 100;w=3600 ratelimit-remaining: 69;w=3600 
