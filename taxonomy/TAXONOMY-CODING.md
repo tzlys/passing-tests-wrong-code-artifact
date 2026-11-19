@@ -25,7 +25,7 @@ Interpretation alone is not enough.
 | L2 When it ran | T1 write during the test | The source changed after the test loaded it and before the test returned. |
 | L3 What was recorded | B1 pass bound to another revision | The stored evidence names a revision that the test did not run. |
 | | B2 evidence names a test that did not run | The recorded selector differs from the executed test. |
-| | B3 hidden exit status | A pipe or command sequence hid the test runner's own exit code. |
+| | B3 hidden exit status | A later command in the same shell line (after `;`, or after redirecting output to a file) hid the test runner's own exit code. |
 | L4 What the pass shows | A1 intent differs: behavior | The code does something the hidden intent rejects. |
 | | A2 intent differs: scope | The code covers only part of the intended change. |
 | | A3 intent differs: interface | The code exposes the intended behavior under a different interface. |
