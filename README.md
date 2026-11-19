@@ -2,7 +2,7 @@
 
 This is the reviewer artifact for the AGENT 2027 submission *When Passing
 Tests Support the Wrong Code: A Controlled Audit of Agent Evidence*. It
-supports the paper's claims in five parts, from quickest to most complete:
+supports the paper's claims in six parts, from quickest to most complete:
 
 1. **One case, four steps (start here, about 5 minutes).** The saved records of
    one primary case show the failure from start to finish. Reading them needs
@@ -18,6 +18,10 @@ supports the paper's claims in five parts, from quickest to most complete:
 5. **Taxonomy (Section VI, Table IV).** The post-hoc coding behind Table IV,
    with event references into the Stage B package, is in
    [`taxonomy/TAXONOMY-CODING.md`](taxonomy/TAXONOMY-CODING.md).
+6. **Public-patch study EXT-01 (Section VI).** This study is pre-registered: the protocol,
+   pipeline, infrastructure corrections and merged results are in
+   [`linux-regrade/ext01/`](linux-regrade/ext01/). The results summary is
+   [`results-2026-11-19/RESULTS.md`](linux-regrade/ext01/results-2026-11-19/RESULTS.md).
 
 No step needs an account, credentials, network access, a model call or a GPU.
 
