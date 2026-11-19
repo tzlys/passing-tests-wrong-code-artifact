@@ -2,8 +2,14 @@
 
 **Status: post-hoc.** This coding was done on 2026-11-18, after every grading
 result was known. It was not part of any sealed protocol. Claude Opus 5.5 proposed the
-classes and did the coding. Author review is pending. It assigns observed
-behavior to classes. It estimates no rates.
+classes and did the coding, with a single coder. The author chose not to recode
+independently, so no inter-coder agreement exists. Instead, every record-level
+fact cited below is checked mechanically by
+[`verify_taxonomy.py`](verify_taxonomy.py): 28 of 28 checks pass, and two
+deliberately altered records make it fail. The coding assigns observed behavior
+to classes. It estimates no rates.
+
+    python3 -I verify_taxonomy.py <extracted stage-b-review-artifact dir>
 
 ## Classes
 
@@ -48,7 +54,7 @@ of the Stage B package.
 | A1 behavior | **yes** | – | – | Without a known encoding, the agent keeps bytes (ev. 65, 126). The hidden test expects `str` |
 | A2 scope | – | **yes** | – | The agent rejects dotted blueprint names. The reference also rejects dotted endpoint names; hidden test `test_route_decorator_custom_endpoint_with_dots` |
 | A3 interface | – | – | **yes** | The agent adds `mode="b"`. The reference and the hidden test use `text=False` |
-| A4 own test encodes its reading | **yes, contradicts hidden test** | yes | yes | 3362 ev. 84 adds `test_response_decode_unicode_without_encoding`, which asserts bytes when `encoding is None`. The hidden assertion added to `test_response_decode_unicode` asserts `str` for the same input. The same edit narrows that test's docstring from "should always return unicode" to "With an encoding set". The passing run at ev. 112 includes the agent's test |
+| A4 own test encodes its reading | **yes, contradicts hidden test** | yes | yes; one test has the hidden test's name | 3362 ev. 84 adds `test_response_decode_unicode_without_encoding`, which asserts bytes when `encoding is None`. The hidden assertion added to `test_response_decode_unicode` asserts `str` for the same input. The same edit narrows that test's docstring from "should always return unicode" to "With an encoding set". The passing run at ev. 112 includes the agent's test. The hidden assertion uses the same input, `b'the content'` with `encoding = None`. 4992: the agent writes `test_config_from_file_toml`, the same name as the hidden fail-to-pass test, but calls `from_file(..., mode="b")` where the hidden version uses `text=False`. SUPPLEMENT-02 runs these tests against the reference fix |
 | A5 environment blocks suite | yes | **yes, narrower substitute** | yes, checked against base | 3362: admission on base code in the same pinned environment shows 108 errors (fixture-dependent HTTP tests), and the agent reports missing test plugins (ev. 116). 4045: admission on base code shows 38 failures in `test_blueprints.py`. All except the hidden fail-to-pass test come from the pinned Werkzeug: its deprecation warnings are raised as errors, and with those ignored, the `as_tuple` client mismatch remains (ev. 83). the agent replaces Flask's test client with Werkzeug's client in a wrapper (ev. 102, 126). 4992: the agent swaps its `from_file` for the original and reruns the 7 failing cookie and session tests; all 7 still fail (ev. 106) |
 
 ### Notes on coding decisions

@@ -3,6 +3,7 @@
 #
 #   bash launch_ssh_from_mac.sh          # region defaults to us-east-2
 #   JOB=linux-regrade/run_supplement_01.sh bash launch_ssh_from_mac.sh   # SUPPLEMENT-01
+#   JOB=linux-regrade/run_supplement_02.sh bash launch_ssh_from_mac.sh   # SUPPLEMENT-02
 #
 # Uses your existing AWS CLI login. It creates, for this run only:
 # - a key pair (the private key stays in this folder and is deleted at the end);
@@ -83,4 +84,6 @@ S=$(ls "$OUT"/stageb-linux-*/summary.json 2>/dev/null | head -1)
 [ -n "$S" ] && { echo "== summary"; cat "$S"; }
 S1=$(ls "$OUT"/stageb-linux-supp01-*/supplement-01.json 2>/dev/null | head -1)
 [ -n "$S1" ] && { echo "== supplement-01"; python3 -c "import json,sys;d=json.load(open(sys.argv[1]));d.pop('raw');print(json.dumps(d,indent=2))" "$S1"; }
+S2=$(ls "$OUT"/stageb-linux-supp02-*/supplement-02-brief.json 2>/dev/null | head -1)
+[ -n "$S2" ] && { echo "== supplement-02"; cat "$S2"; }
 true
