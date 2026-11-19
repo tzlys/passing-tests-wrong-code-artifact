@@ -1,0 +1,804 @@
+{
+  "supplement": "SUPPLEMENT-02 (post-hoc; predictions in this file were committed before the run)",
+  "pytest": "python -m pytest -rA -p no:cacheprovider -W ignore::DeprecationWarning",
+  "tasks": {
+    "psf__requests-3362": {
+      "image": "swebench/sweb.eval.x86_64.psf_1776_requests-3362:latest",
+      "ids": [
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding",
+        "tests/test_utils.py::test_get_encoding_from_headers",
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode",
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode"
+      ],
+      "wrapper": false,
+      "M": {
+        "apply_exits": [
+          0
+        ],
+        "apply_tails": [
+          "warning: docs/user/advanced.rst has type 100755, expected 100644\nwarning: requests/models.py has type 100755, expected 100644\nwarning: requests/utils.py has type 100755, expected 100644\nwarning: tests/test_utils.py has type 100755, expected 100644\n"
+        ],
+        "git_status": " M docs/user/advanced.rst\n M requests/models.py\n M requests/utils.py\n M tests/test_requests.py\n M tests/test_utils.py\n",
+        "python": "3.9.20",
+        "image_id": "sha256:c5dc4ba64a2d97d6cff6b82fe9c0561589df13f23df6883d05e99b630942bbd1",
+        "runs": [
+          {
+            "exit": 0,
+            "outcomes": {
+              "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value0-None]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value4-None]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_response_decode_unicode": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]": "PASSED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.9.20, pytest-7.4.4, pluggy-1.0.0\nrootdir: /testbed\ncollected 32 items\n\ntests/test_requests.py .                                                 [  3%]\ntests/test_utils.py ......                                               [ 21%]\ntests/test_requests.py .........................                         [100%]\n\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value0-None]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value4-None]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]\nPASSED tests/test_requests.py::TestRequests::test_response_decode_unicode\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]\n============================== 32 passed in 0.27s ==============================\n"
+          },
+          {
+            "exit": 0,
+            "outcomes": {
+              "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value0-None]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value4-None]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_response_decode_unicode": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]": "PASSED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.9.20, pytest-7.4.4, pluggy-1.0.0\nrootdir: /testbed\ncollected 32 items\n\ntests/test_requests.py .                                                 [  3%]\ntests/test_utils.py ......                                               [ 21%]\ntests/test_requests.py .........................                         [100%]\n\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value0-None]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value4-None]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]\nPASSED tests/test_requests.py::TestRequests::test_response_decode_unicode\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]\n============================== 32 passed in 0.28s ==============================\n"
+          }
+        ]
+      },
+      "M_by_function": {
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": {
+          "PASSED": 2
+        },
+        "tests/test_utils.py::test_get_encoding_from_headers": {
+          "PASSED": 12
+        },
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": {
+          "PASSED": 2
+        },
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode": {
+          "PASSED": 48
+        }
+      },
+      "M_per_case": {
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value0-None]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value4-None]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]": [
+          "PASSED",
+          "PASSED"
+        ]
+      },
+      "G": {
+        "apply_exits": [
+          0,
+          0
+        ],
+        "apply_tails": [
+          "",
+          "warning: tests/test_utils.py has type 100755, expected 100644\n"
+        ],
+        "git_status": " M requests/utils.py\n M tests/test_requests.py\n M tests/test_utils.py\n",
+        "python": "3.9.20",
+        "image_id": "sha256:c5dc4ba64a2d97d6cff6b82fe9c0561589df13f23df6883d05e99b630942bbd1",
+        "runs": [
+          {
+            "exit": 1,
+            "outcomes": {
+              "tests/test_utils.py::test_get_encoding_from_headers[value0-None]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value4-None]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_response_decode_unicode": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": "FAILED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]": "FAILED"
+            },
+            "tail": ": \"caf\u00e9\"}'\nE             - {\"message\": \"caf\u00e9\"}\n\ntests/test_requests.py:1012: AssertionError\n_ TestRequests.test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True] _\n\nself = <tests.test_requests.TestRequests object at 0x77452e1095e0>\ncached = True, decode_unicode = True, chunk_size = 16384\ncontent_type = 'application/json', encoding = 'utf-8', override = None\n\n    @pytest.mark.parametrize('cached', (False, True))\n    @pytest.mark.parametrize('decode_unicode', (False, True))\n    @pytest.mark.parametrize('chunk_size', (1, 16 * 1024))\n    @pytest.mark.parametrize('content_type, encoding, override', (\n        ('application/json', 'utf-8', None),\n        ('application/json; charset=iso-8859-1', 'iso-8859-1', None),\n        ('application/json', 'iso-8859-1', 'iso-8859-1'),\n    ))\n    def test_json_response_decode_unicode(self, cached, decode_unicode,\n                                          chunk_size, content_type, encoding,\n                                          override):\n        from requests.packages.urllib3.response import HTTPResponse\n    \n        text = b'{\"message\": \"caf\\xc3\\xa9\"}'.decode('utf-8')\n        body = text.encode(encoding)\n        raw = HTTPResponse(body=io.BytesIO(body), status=200,\n                           headers={'Content-Type': content_type},\n                           preload_content=False)\n        request = requests.Request('GET', 'http://example.test/').prepare()\n        r = HTTPAdapter().build_response(request, raw)\n        if override is not None:\n            r.encoding = override\n        if cached:\n            assert r.content == body\n>           assert r.text == text\nE           assert '{\"message\": \"caf\u0102\u0160\"}' == '{\"message\": \"caf\u00e9\"}'\nE             - {\"message\": \"caf\u00e9\"}\nE             ?                 ^\nE             + {\"message\": \"caf\u0102\u0160\"}\nE             ?                 ^^\n\ntests/test_requests.py:1007: AssertionError\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value0-None]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value4-None]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]\nPASSED tests/test_requests.py::TestRequests::test_response_decode_unicode\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]\nFAILED tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding\nFAILED tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8] - As...\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]\n========================= 8 failed, 24 passed in 0.64s =========================\n"
+          },
+          {
+            "exit": 1,
+            "outcomes": {
+              "tests/test_utils.py::test_get_encoding_from_headers[value0-None]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value4-None]": "PASSED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_response_decode_unicode": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]": "PASSED",
+              "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": "FAILED",
+              "tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]": "FAILED",
+              "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]": "FAILED"
+            },
+            "tail": ": \"caf\u00e9\"}'\nE             - {\"message\": \"caf\u00e9\"}\n\ntests/test_requests.py:1012: AssertionError\n_ TestRequests.test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True] _\n\nself = <tests.test_requests.TestRequests object at 0x7875c2198400>\ncached = True, decode_unicode = True, chunk_size = 16384\ncontent_type = 'application/json', encoding = 'utf-8', override = None\n\n    @pytest.mark.parametrize('cached', (False, True))\n    @pytest.mark.parametrize('decode_unicode', (False, True))\n    @pytest.mark.parametrize('chunk_size', (1, 16 * 1024))\n    @pytest.mark.parametrize('content_type, encoding, override', (\n        ('application/json', 'utf-8', None),\n        ('application/json; charset=iso-8859-1', 'iso-8859-1', None),\n        ('application/json', 'iso-8859-1', 'iso-8859-1'),\n    ))\n    def test_json_response_decode_unicode(self, cached, decode_unicode,\n                                          chunk_size, content_type, encoding,\n                                          override):\n        from requests.packages.urllib3.response import HTTPResponse\n    \n        text = b'{\"message\": \"caf\\xc3\\xa9\"}'.decode('utf-8')\n        body = text.encode(encoding)\n        raw = HTTPResponse(body=io.BytesIO(body), status=200,\n                           headers={'Content-Type': content_type},\n                           preload_content=False)\n        request = requests.Request('GET', 'http://example.test/').prepare()\n        r = HTTPAdapter().build_response(request, raw)\n        if override is not None:\n            r.encoding = override\n        if cached:\n            assert r.content == body\n>           assert r.text == text\nE           assert '{\"message\": \"caf\u0102\u0160\"}' == '{\"message\": \"caf\u00e9\"}'\nE             - {\"message\": \"caf\u00e9\"}\nE             ?                 ^\nE             + {\"message\": \"caf\u0102\u0160\"}\nE             ?                 ^^\n\ntests/test_requests.py:1007: AssertionError\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value0-None]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value4-None]\nPASSED tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]\nPASSED tests/test_requests.py::TestRequests::test_response_decode_unicode\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]\nPASSED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]\nFAILED tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding\nFAILED tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8] - As...\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]\nFAILED tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]\n========================= 8 failed, 24 passed in 0.62s =========================\n"
+          }
+        ]
+      },
+      "G_by_function": {
+        "tests/test_utils.py::test_get_encoding_from_headers": {
+          "PASSED": 10,
+          "FAILED": 2
+        },
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": {
+          "PASSED": 2
+        },
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode": {
+          "PASSED": 36,
+          "FAILED": 12
+        },
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": {
+          "FAILED": 2
+        }
+      },
+      "G_per_case": {
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value0-None]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value4-None]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]": [
+          "PASSED",
+          "PASSED"
+        ]
+      }
+    },
+    "pallets__flask-4045": {
+      "image": "swebench/sweb.eval.x86_64.pallets_1776_flask-4045:latest",
+      "ids": [
+        "tests/test_blueprints.py::test_dotted_names",
+        "tests/test_blueprints.py::test_nested_blueprint"
+      ],
+      "wrapper": true,
+      "M": {
+        "apply_exits": [
+          0
+        ],
+        "apply_tails": [
+          "warning: CHANGES.rst has type 100755, expected 100644\nwarning: src/flask/blueprints.py has type 100755, expected 100644\nwarning: tests/test_blueprints.py has type 100755, expected 100644\n"
+        ],
+        "git_status": " M CHANGES.rst\n M src/flask/blueprints.py\n M tests/test_blueprints.py\n",
+        "python": "3.9.20",
+        "image_id": "sha256:1425b0801ddf4b2607e552e56516cce3d389bab0a3ce06f58e6fa6a7835c703c",
+        "runs": [
+          {
+            "exit": 1,
+            "outcomes": {
+              "tests/test_blueprints.py::test_dotted_names[myapp.frontend]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[.frontend]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[frontend.]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[.]": "PASSED",
+              "::test_nested_blueprints_with_current_werkzeug_client": "PASSED",
+              "tests/test_blueprints.py::test_nested_blueprint": "FAILED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.9.20, pytest-6.2.5, py-1.10.0, pluggy-1.0.0\nrootdir: /testbed, configfile: setup.cfg\ncollected 6 items\n\ntests/test_blueprints.py ....F                                           [ 83%]\n. .                                                                      [100%]\n\n=================================== FAILURES ===================================\n____________________________ test_nested_blueprint _____________________________\n\napp = <Flask 'flask_test'>, client = <FlaskClient <Flask 'flask_test'>>\n\n    def test_nested_blueprint(app, client):\n        parent = flask.Blueprint(\"parent\", __name__)\n        child = flask.Blueprint(\"child\", __name__)\n        grandchild = flask.Blueprint(\"grandchild\", __name__)\n    \n        @parent.errorhandler(403)\n        def forbidden(e):\n            return \"Parent no\", 403\n    \n        @parent.route(\"/\")\n        def parent_index():\n            return \"Parent yes\"\n    \n        @parent.route(\"/no\")\n        def parent_no():\n            flask.abort(403)\n    \n        @child.route(\"/\")\n        def child_index():\n            return \"Child yes\"\n    \n        @child.route(\"/no\")\n        def child_no():\n            flask.abort(403)\n    \n        @grandchild.errorhandler(403)\n        def grandchild_forbidden(e):\n            return \"Grandchild no\", 403\n    \n        @grandchild.route(\"/\")\n        def grandchild_index():\n            return \"Grandchild yes\"\n    \n        @grandchild.route(\"/no\")\n        def grandchild_no():\n            flask.abort(403)\n    \n        child.register_blueprint(grandchild, url_prefix=\"/grandchild\")\n        parent.register_blueprint(child, url_prefix=\"/child\")\n        app.register_blueprint(parent, url_prefix=\"/parent\")\n    \n        with app.test_request_context():\n            assert flask.url_for(\"parent.parent_index\") == \"/parent/\"\n            assert flask.url_for(\"parent.child.child_index\") == \"/parent/child/\"\n            assert (\n                flask.url_for(\"parent.child.grandchild.grandchild_index\")\n                == \"/parent/child/grandchild/\"\n            )\n    \n>       assert client.get(\"/parent/\").data == b\"Parent yes\"\n\ntests/test_blueprints.py:886: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/werkzeug/test.py:1243: in get\n    return self.open(*args, **kw)\nsrc/flask/testing.py:216: in open\n    return super().open(  # type: ignore\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <FlaskClient <Flask 'flask_test'>>, buffered = False\nfollow_redirects = False, args = (<Request 'http://localhost/parent/' [GET]>,)\nkwargs = {'as_tuple': False}, request = None\n\n    def open(\n        self,\n        *args: t.Any,\n        buffered: bool = False,\n        follow_redirects: bool = False,\n        **kwargs: t.Any,\n    ) -> TestResponse:\n        \"\"\"Generate an environ dict from the given arguments, make a\n        request to the application using it, and return the response.\n    \n        :param args: Passed to :class:`EnvironBuilder` to create the\n            environ for the request. If a single arg is passed, it can\n            be an existing :class:`EnvironBuilder` or an environ dict.\n        :param buffered: Convert the iterator returned by the app into\n            a list. If the iterator has a ``close()`` method, it is\n            called automatically.\n        :param follow_redirects: Make additional requests to follow HTTP\n            redirects until a non-redirect status is returned.\n            :attr:`TestResponse.history` lists the intermediate\n            responses.\n    \n        .. versionchanged:: 2.1\n            Removed the ``as_tuple`` parameter.\n    \n        .. versionchanged:: 2.0\n            The request input stream is closed when calling\n            ``response.close()``. Input streams for redirects are\n            automatically closed.\n    \n        .. versionchanged:: 0.5\n            If a dict is provided as file in the dict for the ``data``\n            parameter the content type has to be called ``content_type``\n            instead of ``mimetype``. This change was made for\n            consistency with :class:`werkzeug.FileWrapper`.\n    \n        .. versionchanged:: 0.5\n            Added the ``follow_redirects`` parameter.\n        \"\"\"\n        request: Request | None = None\n    \n        if not kwargs and len(args) == 1:\n            arg = args[0]\n    \n            if isinstance(arg, EnvironBuilder):\n                request = arg.get_request()\n            elif isinstance(arg, dict):\n                request = EnvironBuilder.from_environ(arg).get_request()\n            elif isinstance(arg, Request):\n                request = arg\n    \n        if request is None:\n>           builder = EnvironBuilder(*args, **kwargs)\nE           TypeError: __init__() got an unexpected keyword argument 'as_tuple'\n\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/werkzeug/test.py:1190: TypeError\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_blueprints.py::test_dotted_names[myapp.frontend]\nPASSED tests/test_blueprints.py::test_dotted_names[.frontend]\nPASSED tests/test_blueprints.py::test_dotted_names[frontend.]\nPASSED tests/test_blueprints.py::test_dotted_names[.]\nPASSED ::test_nested_blueprints_with_current_werkzeug_client\nFAILED tests/test_blueprints.py::test_nested_blueprint - TypeError: __init__(...\n========================= 1 failed, 5 passed in 0.15s ==========================\n"
+          },
+          {
+            "exit": 1,
+            "outcomes": {
+              "tests/test_blueprints.py::test_dotted_names[myapp.frontend]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[.frontend]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[frontend.]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[.]": "PASSED",
+              "::test_nested_blueprints_with_current_werkzeug_client": "PASSED",
+              "tests/test_blueprints.py::test_nested_blueprint": "FAILED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.9.20, pytest-6.2.5, py-1.10.0, pluggy-1.0.0\nrootdir: /testbed, configfile: setup.cfg\ncollected 6 items\n\ntests/test_blueprints.py ....F                                           [ 83%]\n. .                                                                      [100%]\n\n=================================== FAILURES ===================================\n____________________________ test_nested_blueprint _____________________________\n\napp = <Flask 'flask_test'>, client = <FlaskClient <Flask 'flask_test'>>\n\n    def test_nested_blueprint(app, client):\n        parent = flask.Blueprint(\"parent\", __name__)\n        child = flask.Blueprint(\"child\", __name__)\n        grandchild = flask.Blueprint(\"grandchild\", __name__)\n    \n        @parent.errorhandler(403)\n        def forbidden(e):\n            return \"Parent no\", 403\n    \n        @parent.route(\"/\")\n        def parent_index():\n            return \"Parent yes\"\n    \n        @parent.route(\"/no\")\n        def parent_no():\n            flask.abort(403)\n    \n        @child.route(\"/\")\n        def child_index():\n            return \"Child yes\"\n    \n        @child.route(\"/no\")\n        def child_no():\n            flask.abort(403)\n    \n        @grandchild.errorhandler(403)\n        def grandchild_forbidden(e):\n            return \"Grandchild no\", 403\n    \n        @grandchild.route(\"/\")\n        def grandchild_index():\n            return \"Grandchild yes\"\n    \n        @grandchild.route(\"/no\")\n        def grandchild_no():\n            flask.abort(403)\n    \n        child.register_blueprint(grandchild, url_prefix=\"/grandchild\")\n        parent.register_blueprint(child, url_prefix=\"/child\")\n        app.register_blueprint(parent, url_prefix=\"/parent\")\n    \n        with app.test_request_context():\n            assert flask.url_for(\"parent.parent_index\") == \"/parent/\"\n            assert flask.url_for(\"parent.child.child_index\") == \"/parent/child/\"\n            assert (\n                flask.url_for(\"parent.child.grandchild.grandchild_index\")\n                == \"/parent/child/grandchild/\"\n            )\n    \n>       assert client.get(\"/parent/\").data == b\"Parent yes\"\n\ntests/test_blueprints.py:886: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/werkzeug/test.py:1243: in get\n    return self.open(*args, **kw)\nsrc/flask/testing.py:216: in open\n    return super().open(  # type: ignore\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <FlaskClient <Flask 'flask_test'>>, buffered = False\nfollow_redirects = False, args = (<Request 'http://localhost/parent/' [GET]>,)\nkwargs = {'as_tuple': False}, request = None\n\n    def open(\n        self,\n        *args: t.Any,\n        buffered: bool = False,\n        follow_redirects: bool = False,\n        **kwargs: t.Any,\n    ) -> TestResponse:\n        \"\"\"Generate an environ dict from the given arguments, make a\n        request to the application using it, and return the response.\n    \n        :param args: Passed to :class:`EnvironBuilder` to create the\n            environ for the request. If a single arg is passed, it can\n            be an existing :class:`EnvironBuilder` or an environ dict.\n        :param buffered: Convert the iterator returned by the app into\n            a list. If the iterator has a ``close()`` method, it is\n            called automatically.\n        :param follow_redirects: Make additional requests to follow HTTP\n            redirects until a non-redirect status is returned.\n            :attr:`TestResponse.history` lists the intermediate\n            responses.\n    \n        .. versionchanged:: 2.1\n            Removed the ``as_tuple`` parameter.\n    \n        .. versionchanged:: 2.0\n            The request input stream is closed when calling\n            ``response.close()``. Input streams for redirects are\n            automatically closed.\n    \n        .. versionchanged:: 0.5\n            If a dict is provided as file in the dict for the ``data``\n            parameter the content type has to be called ``content_type``\n            instead of ``mimetype``. This change was made for\n            consistency with :class:`werkzeug.FileWrapper`.\n    \n        .. versionchanged:: 0.5\n            Added the ``follow_redirects`` parameter.\n        \"\"\"\n        request: Request | None = None\n    \n        if not kwargs and len(args) == 1:\n            arg = args[0]\n    \n            if isinstance(arg, EnvironBuilder):\n                request = arg.get_request()\n            elif isinstance(arg, dict):\n                request = EnvironBuilder.from_environ(arg).get_request()\n            elif isinstance(arg, Request):\n                request = arg\n    \n        if request is None:\n>           builder = EnvironBuilder(*args, **kwargs)\nE           TypeError: __init__() got an unexpected keyword argument 'as_tuple'\n\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/werkzeug/test.py:1190: TypeError\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_blueprints.py::test_dotted_names[myapp.frontend]\nPASSED tests/test_blueprints.py::test_dotted_names[.frontend]\nPASSED tests/test_blueprints.py::test_dotted_names[frontend.]\nPASSED tests/test_blueprints.py::test_dotted_names[.]\nPASSED ::test_nested_blueprints_with_current_werkzeug_client\nFAILED tests/test_blueprints.py::test_nested_blueprint - TypeError: __init__(...\n========================= 1 failed, 5 passed in 0.16s ==========================\n"
+          }
+        ]
+      },
+      "M_by_function": {
+        "tests/test_blueprints.py::test_dotted_names": {
+          "PASSED": 8
+        },
+        "::test_nested_blueprints_with_current_werkzeug_client": {
+          "PASSED": 2
+        },
+        "tests/test_blueprints.py::test_nested_blueprint": {
+          "FAILED": 2
+        }
+      },
+      "M_per_case": {
+        "::test_nested_blueprints_with_current_werkzeug_client": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[.]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[.frontend]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[frontend.]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[myapp.frontend]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_nested_blueprint": [
+          "FAILED",
+          "FAILED"
+        ]
+      },
+      "G": {
+        "apply_exits": [
+          0,
+          0
+        ],
+        "apply_tails": [
+          "",
+          "warning: tests/test_blueprints.py has type 100755, expected 100644\n"
+        ],
+        "git_status": " M src/flask/blueprints.py\n M tests/test_blueprints.py\n",
+        "python": "3.9.20",
+        "image_id": "sha256:1425b0801ddf4b2607e552e56516cce3d389bab0a3ce06f58e6fa6a7835c703c",
+        "runs": [
+          {
+            "exit": 1,
+            "outcomes": {
+              "tests/test_blueprints.py::test_dotted_names[myapp.frontend]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[.frontend]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[frontend.]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[.]": "PASSED",
+              "::test_nested_blueprints_with_current_werkzeug_client": "PASSED",
+              "tests/test_blueprints.py::test_nested_blueprint": "FAILED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.9.20, pytest-6.2.5, py-1.10.0, pluggy-1.0.0\nrootdir: /testbed, configfile: setup.cfg\ncollected 6 items\n\ntests/test_blueprints.py ....F                                           [ 83%]\n. .                                                                      [100%]\n\n=================================== FAILURES ===================================\n____________________________ test_nested_blueprint _____________________________\n\napp = <Flask 'flask_test'>, client = <FlaskClient <Flask 'flask_test'>>\n\n    def test_nested_blueprint(app, client):\n        parent = flask.Blueprint(\"parent\", __name__)\n        child = flask.Blueprint(\"child\", __name__)\n        grandchild = flask.Blueprint(\"grandchild\", __name__)\n    \n        @parent.errorhandler(403)\n        def forbidden(e):\n            return \"Parent no\", 403\n    \n        @parent.route(\"/\")\n        def parent_index():\n            return \"Parent yes\"\n    \n        @parent.route(\"/no\")\n        def parent_no():\n            flask.abort(403)\n    \n        @child.route(\"/\")\n        def child_index():\n            return \"Child yes\"\n    \n        @child.route(\"/no\")\n        def child_no():\n            flask.abort(403)\n    \n        @grandchild.errorhandler(403)\n        def grandchild_forbidden(e):\n            return \"Grandchild no\", 403\n    \n        @grandchild.route(\"/\")\n        def grandchild_index():\n            return \"Grandchild yes\"\n    \n        @grandchild.route(\"/no\")\n        def grandchild_no():\n            flask.abort(403)\n    \n        child.register_blueprint(grandchild, url_prefix=\"/grandchild\")\n        parent.register_blueprint(child, url_prefix=\"/child\")\n        app.register_blueprint(parent, url_prefix=\"/parent\")\n    \n        with app.test_request_context():\n            assert flask.url_for(\"parent.parent_index\") == \"/parent/\"\n            assert flask.url_for(\"parent.child.child_index\") == \"/parent/child/\"\n            assert (\n                flask.url_for(\"parent.child.grandchild.grandchild_index\")\n                == \"/parent/child/grandchild/\"\n            )\n    \n>       assert client.get(\"/parent/\").data == b\"Parent yes\"\n\ntests/test_blueprints.py:886: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/werkzeug/test.py:1243: in get\n    return self.open(*args, **kw)\nsrc/flask/testing.py:216: in open\n    return super().open(  # type: ignore\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <FlaskClient <Flask 'flask_test'>>, buffered = False\nfollow_redirects = False, args = (<Request 'http://localhost/parent/' [GET]>,)\nkwargs = {'as_tuple': False}, request = None\n\n    def open(\n        self,\n        *args: t.Any,\n        buffered: bool = False,\n        follow_redirects: bool = False,\n        **kwargs: t.Any,\n    ) -> TestResponse:\n        \"\"\"Generate an environ dict from the given arguments, make a\n        request to the application using it, and return the response.\n    \n        :param args: Passed to :class:`EnvironBuilder` to create the\n            environ for the request. If a single arg is passed, it can\n            be an existing :class:`EnvironBuilder` or an environ dict.\n        :param buffered: Convert the iterator returned by the app into\n            a list. If the iterator has a ``close()`` method, it is\n            called automatically.\n        :param follow_redirects: Make additional requests to follow HTTP\n            redirects until a non-redirect status is returned.\n            :attr:`TestResponse.history` lists the intermediate\n            responses.\n    \n        .. versionchanged:: 2.1\n            Removed the ``as_tuple`` parameter.\n    \n        .. versionchanged:: 2.0\n            The request input stream is closed when calling\n            ``response.close()``. Input streams for redirects are\n            automatically closed.\n    \n        .. versionchanged:: 0.5\n            If a dict is provided as file in the dict for the ``data``\n            parameter the content type has to be called ``content_type``\n            instead of ``mimetype``. This change was made for\n            consistency with :class:`werkzeug.FileWrapper`.\n    \n        .. versionchanged:: 0.5\n            Added the ``follow_redirects`` parameter.\n        \"\"\"\n        request: Request | None = None\n    \n        if not kwargs and len(args) == 1:\n            arg = args[0]\n    \n            if isinstance(arg, EnvironBuilder):\n                request = arg.get_request()\n            elif isinstance(arg, dict):\n                request = EnvironBuilder.from_environ(arg).get_request()\n            elif isinstance(arg, Request):\n                request = arg\n    \n        if request is None:\n>           builder = EnvironBuilder(*args, **kwargs)\nE           TypeError: __init__() got an unexpected keyword argument 'as_tuple'\n\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/werkzeug/test.py:1190: TypeError\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_blueprints.py::test_dotted_names[myapp.frontend]\nPASSED tests/test_blueprints.py::test_dotted_names[.frontend]\nPASSED tests/test_blueprints.py::test_dotted_names[frontend.]\nPASSED tests/test_blueprints.py::test_dotted_names[.]\nPASSED ::test_nested_blueprints_with_current_werkzeug_client\nFAILED tests/test_blueprints.py::test_nested_blueprint - TypeError: __init__(...\n========================= 1 failed, 5 passed in 0.16s ==========================\n"
+          },
+          {
+            "exit": 1,
+            "outcomes": {
+              "tests/test_blueprints.py::test_dotted_names[myapp.frontend]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[.frontend]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[frontend.]": "PASSED",
+              "tests/test_blueprints.py::test_dotted_names[.]": "PASSED",
+              "::test_nested_blueprints_with_current_werkzeug_client": "PASSED",
+              "tests/test_blueprints.py::test_nested_blueprint": "FAILED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.9.20, pytest-6.2.5, py-1.10.0, pluggy-1.0.0\nrootdir: /testbed, configfile: setup.cfg\ncollected 6 items\n\ntests/test_blueprints.py ....F                                           [ 83%]\n. .                                                                      [100%]\n\n=================================== FAILURES ===================================\n____________________________ test_nested_blueprint _____________________________\n\napp = <Flask 'flask_test'>, client = <FlaskClient <Flask 'flask_test'>>\n\n    def test_nested_blueprint(app, client):\n        parent = flask.Blueprint(\"parent\", __name__)\n        child = flask.Blueprint(\"child\", __name__)\n        grandchild = flask.Blueprint(\"grandchild\", __name__)\n    \n        @parent.errorhandler(403)\n        def forbidden(e):\n            return \"Parent no\", 403\n    \n        @parent.route(\"/\")\n        def parent_index():\n            return \"Parent yes\"\n    \n        @parent.route(\"/no\")\n        def parent_no():\n            flask.abort(403)\n    \n        @child.route(\"/\")\n        def child_index():\n            return \"Child yes\"\n    \n        @child.route(\"/no\")\n        def child_no():\n            flask.abort(403)\n    \n        @grandchild.errorhandler(403)\n        def grandchild_forbidden(e):\n            return \"Grandchild no\", 403\n    \n        @grandchild.route(\"/\")\n        def grandchild_index():\n            return \"Grandchild yes\"\n    \n        @grandchild.route(\"/no\")\n        def grandchild_no():\n            flask.abort(403)\n    \n        child.register_blueprint(grandchild, url_prefix=\"/grandchild\")\n        parent.register_blueprint(child, url_prefix=\"/child\")\n        app.register_blueprint(parent, url_prefix=\"/parent\")\n    \n        with app.test_request_context():\n            assert flask.url_for(\"parent.parent_index\") == \"/parent/\"\n            assert flask.url_for(\"parent.child.child_index\") == \"/parent/child/\"\n            assert (\n                flask.url_for(\"parent.child.grandchild.grandchild_index\")\n                == \"/parent/child/grandchild/\"\n            )\n    \n>       assert client.get(\"/parent/\").data == b\"Parent yes\"\n\ntests/test_blueprints.py:886: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/werkzeug/test.py:1243: in get\n    return self.open(*args, **kw)\nsrc/flask/testing.py:216: in open\n    return super().open(  # type: ignore\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <FlaskClient <Flask 'flask_test'>>, buffered = False\nfollow_redirects = False, args = (<Request 'http://localhost/parent/' [GET]>,)\nkwargs = {'as_tuple': False}, request = None\n\n    def open(\n        self,\n        *args: t.Any,\n        buffered: bool = False,\n        follow_redirects: bool = False,\n        **kwargs: t.Any,\n    ) -> TestResponse:\n        \"\"\"Generate an environ dict from the given arguments, make a\n        request to the application using it, and return the response.\n    \n        :param args: Passed to :class:`EnvironBuilder` to create the\n            environ for the request. If a single arg is passed, it can\n            be an existing :class:`EnvironBuilder` or an environ dict.\n        :param buffered: Convert the iterator returned by the app into\n            a list. If the iterator has a ``close()`` method, it is\n            called automatically.\n        :param follow_redirects: Make additional requests to follow HTTP\n            redirects until a non-redirect status is returned.\n            :attr:`TestResponse.history` lists the intermediate\n            responses.\n    \n        .. versionchanged:: 2.1\n            Removed the ``as_tuple`` parameter.\n    \n        .. versionchanged:: 2.0\n            The request input stream is closed when calling\n            ``response.close()``. Input streams for redirects are\n            automatically closed.\n    \n        .. versionchanged:: 0.5\n            If a dict is provided as file in the dict for the ``data``\n            parameter the content type has to be called ``content_type``\n            instead of ``mimetype``. This change was made for\n            consistency with :class:`werkzeug.FileWrapper`.\n    \n        .. versionchanged:: 0.5\n            Added the ``follow_redirects`` parameter.\n        \"\"\"\n        request: Request | None = None\n    \n        if not kwargs and len(args) == 1:\n            arg = args[0]\n    \n            if isinstance(arg, EnvironBuilder):\n                request = arg.get_request()\n            elif isinstance(arg, dict):\n                request = EnvironBuilder.from_environ(arg).get_request()\n            elif isinstance(arg, Request):\n                request = arg\n    \n        if request is None:\n>           builder = EnvironBuilder(*args, **kwargs)\nE           TypeError: __init__() got an unexpected keyword argument 'as_tuple'\n\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/werkzeug/test.py:1190: TypeError\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_blueprints.py::test_dotted_names[myapp.frontend]\nPASSED tests/test_blueprints.py::test_dotted_names[.frontend]\nPASSED tests/test_blueprints.py::test_dotted_names[frontend.]\nPASSED tests/test_blueprints.py::test_dotted_names[.]\nPASSED ::test_nested_blueprints_with_current_werkzeug_client\nFAILED tests/test_blueprints.py::test_nested_blueprint - TypeError: __init__(...\n========================= 1 failed, 5 passed in 0.16s ==========================\n"
+          }
+        ]
+      },
+      "G_by_function": {
+        "tests/test_blueprints.py::test_dotted_names": {
+          "PASSED": 8
+        },
+        "::test_nested_blueprints_with_current_werkzeug_client": {
+          "PASSED": 2
+        },
+        "tests/test_blueprints.py::test_nested_blueprint": {
+          "FAILED": 2
+        }
+      },
+      "G_per_case": {
+        "::test_nested_blueprints_with_current_werkzeug_client": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[.]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[.frontend]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[frontend.]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[myapp.frontend]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_nested_blueprint": [
+          "FAILED",
+          "FAILED"
+        ]
+      }
+    },
+    "pallets__flask-4992": {
+      "image": "swebench/sweb.eval.x86_64.pallets_1776_flask-4992:latest",
+      "ids": [
+        "tests/test_config.py::test_config_from_file_mode",
+        "tests/test_config.py::test_config_from_file_toml",
+        "tests/test_config.py::test_config_missing_file"
+      ],
+      "wrapper": false,
+      "M": {
+        "apply_exits": [
+          0
+        ],
+        "apply_tails": [
+          "warning: CHANGES.rst has type 100755, expected 100644\nwarning: docs/config.rst has type 100755, expected 100644\nwarning: src/flask/config.py has type 100755, expected 100644\nwarning: tests/test_config.py has type 100755, expected 100644\n"
+        ],
+        "git_status": " M CHANGES.rst\n M docs/config.rst\n M src/flask/config.py\n M tests/test_config.py\n",
+        "python": "3.11.10",
+        "image_id": "sha256:bb1460876a7bc667f71b46aac744dd6f6d7f5f66e79902461cf76c6f8c4f7150",
+        "runs": [
+          {
+            "exit": 0,
+            "outcomes": {
+              "tests/test_config.py::test_config_from_file_mode[None-str]": "PASSED",
+              "tests/test_config.py::test_config_from_file_mode[t-str]": "PASSED",
+              "tests/test_config.py::test_config_from_file_mode[b-bytes]": "PASSED",
+              "tests/test_config.py::test_config_from_file_toml": "PASSED",
+              "tests/test_config.py::test_config_missing_file[t]": "PASSED",
+              "tests/test_config.py::test_config_missing_file[b]": "PASSED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.11.10, pytest-7.3.0, pluggy-1.0.0\nrootdir: /testbed\nconfigfile: pyproject.toml\ncollected 6 items\n\ntests/test_config.py ......                                              [100%]\n\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_config.py::test_config_from_file_mode[None-str]\nPASSED tests/test_config.py::test_config_from_file_mode[t-str]\nPASSED tests/test_config.py::test_config_from_file_mode[b-bytes]\nPASSED tests/test_config.py::test_config_from_file_toml\nPASSED tests/test_config.py::test_config_missing_file[t]\nPASSED tests/test_config.py::test_config_missing_file[b]\n============================== 6 passed in 0.04s ===============================\n"
+          },
+          {
+            "exit": 0,
+            "outcomes": {
+              "tests/test_config.py::test_config_from_file_mode[None-str]": "PASSED",
+              "tests/test_config.py::test_config_from_file_mode[t-str]": "PASSED",
+              "tests/test_config.py::test_config_from_file_mode[b-bytes]": "PASSED",
+              "tests/test_config.py::test_config_from_file_toml": "PASSED",
+              "tests/test_config.py::test_config_missing_file[t]": "PASSED",
+              "tests/test_config.py::test_config_missing_file[b]": "PASSED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.11.10, pytest-7.3.0, pluggy-1.0.0\nrootdir: /testbed\nconfigfile: pyproject.toml\ncollected 6 items\n\ntests/test_config.py ......                                              [100%]\n\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_config.py::test_config_from_file_mode[None-str]\nPASSED tests/test_config.py::test_config_from_file_mode[t-str]\nPASSED tests/test_config.py::test_config_from_file_mode[b-bytes]\nPASSED tests/test_config.py::test_config_from_file_toml\nPASSED tests/test_config.py::test_config_missing_file[t]\nPASSED tests/test_config.py::test_config_missing_file[b]\n============================== 6 passed in 0.04s ===============================\n"
+          }
+        ]
+      },
+      "M_by_function": {
+        "tests/test_config.py::test_config_from_file_mode": {
+          "PASSED": 6
+        },
+        "tests/test_config.py::test_config_from_file_toml": {
+          "PASSED": 2
+        },
+        "tests/test_config.py::test_config_missing_file": {
+          "PASSED": 4
+        }
+      },
+      "M_per_case": {
+        "tests/test_config.py::test_config_from_file_mode[None-str]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_from_file_mode[b-bytes]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_from_file_mode[t-str]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_from_file_toml": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_missing_file[b]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_missing_file[t]": [
+          "PASSED",
+          "PASSED"
+        ]
+      },
+      "G": {
+        "apply_exits": [
+          0,
+          0
+        ],
+        "apply_tails": [
+          "",
+          "warning: tests/test_config.py has type 100755, expected 100644\n"
+        ],
+        "git_status": " M src/flask/config.py\n M tests/test_config.py\n",
+        "python": "3.11.10",
+        "image_id": "sha256:bb1460876a7bc667f71b46aac744dd6f6d7f5f66e79902461cf76c6f8c4f7150",
+        "runs": [
+          {
+            "exit": 1,
+            "outcomes": {
+              "tests/test_config.py::test_config_from_file_mode[None-str]": "PASSED",
+              "tests/test_config.py::test_config_from_file_mode[t-str]": "FAILED",
+              "tests/test_config.py::test_config_from_file_mode[b-bytes]": "FAILED",
+              "tests/test_config.py::test_config_from_file_toml": "FAILED",
+              "tests/test_config.py::test_config_missing_file[t]": "FAILED",
+              "tests/test_config.py::test_config_missing_file[b]": "FAILED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.11.10, pytest-7.3.0, pluggy-1.0.0\nrootdir: /testbed\nconfigfile: pyproject.toml\ncollected 6 items\n\ntests/test_config.py .FFFFF                                              [100%]\n\n=================================== FAILURES ===================================\n______________________ test_config_from_file_mode[t-str] _______________________\n\napp = <Flask 'flask_test'>, mode = 't', data_type = <class 'str'>\n\n    @pytest.mark.parametrize(\"mode, data_type\", [(None, str), (\"t\", str), (\"b\", bytes)])\n    def test_config_from_file_mode(app, mode, data_type):\n        def load(file):\n            data = file.read()\n            assert isinstance(data, data_type)\n            return json.loads(data)\n    \n        kwargs = {} if mode is None else {\"mode\": mode}\n>       assert app.config.from_file(\"static/config.json\", load, **kwargs)\nE       TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:48: TypeError\n_____________________ test_config_from_file_mode[b-bytes] ______________________\n\napp = <Flask 'flask_test'>, mode = 'b', data_type = <class 'bytes'>\n\n    @pytest.mark.parametrize(\"mode, data_type\", [(None, str), (\"t\", str), (\"b\", bytes)])\n    def test_config_from_file_mode(app, mode, data_type):\n        def load(file):\n            data = file.read()\n            assert isinstance(data, data_type)\n            return json.loads(data)\n    \n        kwargs = {} if mode is None else {\"mode\": mode}\n>       assert app.config.from_file(\"static/config.json\", load, **kwargs)\nE       TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:48: TypeError\n__________________________ test_config_from_file_toml __________________________\n\ntmp_path = PosixPath('/tmp/pytest-of-root/pytest-0/test_config_from_file_toml0')\n\n    def test_config_from_file_toml(tmp_path):\n        tomllib = pytest.importorskip(\"tomllib\")\n        (tmp_path / \"config.toml\").write_text(\n            'SECRET_KEY = \"config\"\\nTEST_KEY = \"foo\"\\nTestConfig = \"ignored\"\\n',\n            encoding=\"utf-8\",\n        )\n        app = flask.Flask(__name__, root_path=str(tmp_path))\n    \n>       assert app.config.from_file(\"config.toml\", tomllib.load, mode=\"b\")\nE       TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:60: TypeError\n_________________________ test_config_missing_file[t] __________________________\n\nmode = 't'\n\n    @pytest.mark.parametrize(\"mode\", [\"t\", \"b\"])\n    def test_config_missing_file(mode):\n        app = flask.Flask(__name__)\n        with pytest.raises(IOError) as e:\n>           app.config.from_file(\"missing.json\", load=json.load, mode=mode)\nE           TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:206: TypeError\n_________________________ test_config_missing_file[b] __________________________\n\nmode = 'b'\n\n    @pytest.mark.parametrize(\"mode\", [\"t\", \"b\"])\n    def test_config_missing_file(mode):\n        app = flask.Flask(__name__)\n        with pytest.raises(IOError) as e:\n>           app.config.from_file(\"missing.json\", load=json.load, mode=mode)\nE           TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:206: TypeError\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_config.py::test_config_from_file_mode[None-str]\nFAILED tests/test_config.py::test_config_from_file_mode[t-str] - TypeError: C...\nFAILED tests/test_config.py::test_config_from_file_mode[b-bytes] - TypeError:...\nFAILED tests/test_config.py::test_config_from_file_toml - TypeError: Config.f...\nFAILED tests/test_config.py::test_config_missing_file[t] - TypeError: Config....\nFAILED tests/test_config.py::test_config_missing_file[b] - TypeError: Config....\n========================= 5 failed, 1 passed in 0.10s ==========================\n"
+          },
+          {
+            "exit": 1,
+            "outcomes": {
+              "tests/test_config.py::test_config_from_file_mode[None-str]": "PASSED",
+              "tests/test_config.py::test_config_from_file_mode[t-str]": "FAILED",
+              "tests/test_config.py::test_config_from_file_mode[b-bytes]": "FAILED",
+              "tests/test_config.py::test_config_from_file_toml": "FAILED",
+              "tests/test_config.py::test_config_missing_file[t]": "FAILED",
+              "tests/test_config.py::test_config_missing_file[b]": "FAILED"
+            },
+            "tail": "============================= test session starts ==============================\nplatform linux -- Python 3.11.10, pytest-7.3.0, pluggy-1.0.0\nrootdir: /testbed\nconfigfile: pyproject.toml\ncollected 6 items\n\ntests/test_config.py .FFFFF                                              [100%]\n\n=================================== FAILURES ===================================\n______________________ test_config_from_file_mode[t-str] _______________________\n\napp = <Flask 'flask_test'>, mode = 't', data_type = <class 'str'>\n\n    @pytest.mark.parametrize(\"mode, data_type\", [(None, str), (\"t\", str), (\"b\", bytes)])\n    def test_config_from_file_mode(app, mode, data_type):\n        def load(file):\n            data = file.read()\n            assert isinstance(data, data_type)\n            return json.loads(data)\n    \n        kwargs = {} if mode is None else {\"mode\": mode}\n>       assert app.config.from_file(\"static/config.json\", load, **kwargs)\nE       TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:48: TypeError\n_____________________ test_config_from_file_mode[b-bytes] ______________________\n\napp = <Flask 'flask_test'>, mode = 'b', data_type = <class 'bytes'>\n\n    @pytest.mark.parametrize(\"mode, data_type\", [(None, str), (\"t\", str), (\"b\", bytes)])\n    def test_config_from_file_mode(app, mode, data_type):\n        def load(file):\n            data = file.read()\n            assert isinstance(data, data_type)\n            return json.loads(data)\n    \n        kwargs = {} if mode is None else {\"mode\": mode}\n>       assert app.config.from_file(\"static/config.json\", load, **kwargs)\nE       TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:48: TypeError\n__________________________ test_config_from_file_toml __________________________\n\ntmp_path = PosixPath('/tmp/pytest-of-root/pytest-1/test_config_from_file_toml0')\n\n    def test_config_from_file_toml(tmp_path):\n        tomllib = pytest.importorskip(\"tomllib\")\n        (tmp_path / \"config.toml\").write_text(\n            'SECRET_KEY = \"config\"\\nTEST_KEY = \"foo\"\\nTestConfig = \"ignored\"\\n',\n            encoding=\"utf-8\",\n        )\n        app = flask.Flask(__name__, root_path=str(tmp_path))\n    \n>       assert app.config.from_file(\"config.toml\", tomllib.load, mode=\"b\")\nE       TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:60: TypeError\n_________________________ test_config_missing_file[t] __________________________\n\nmode = 't'\n\n    @pytest.mark.parametrize(\"mode\", [\"t\", \"b\"])\n    def test_config_missing_file(mode):\n        app = flask.Flask(__name__)\n        with pytest.raises(IOError) as e:\n>           app.config.from_file(\"missing.json\", load=json.load, mode=mode)\nE           TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:206: TypeError\n_________________________ test_config_missing_file[b] __________________________\n\nmode = 'b'\n\n    @pytest.mark.parametrize(\"mode\", [\"t\", \"b\"])\n    def test_config_missing_file(mode):\n        app = flask.Flask(__name__)\n        with pytest.raises(IOError) as e:\n>           app.config.from_file(\"missing.json\", load=json.load, mode=mode)\nE           TypeError: Config.from_file() got an unexpected keyword argument 'mode'\n\ntests/test_config.py:206: TypeError\n==================================== PASSES ====================================\n=========================== short test summary info ============================\nPASSED tests/test_config.py::test_config_from_file_mode[None-str]\nFAILED tests/test_config.py::test_config_from_file_mode[t-str] - TypeError: C...\nFAILED tests/test_config.py::test_config_from_file_mode[b-bytes] - TypeError:...\nFAILED tests/test_config.py::test_config_from_file_toml - TypeError: Config.f...\nFAILED tests/test_config.py::test_config_missing_file[t] - TypeError: Config....\nFAILED tests/test_config.py::test_config_missing_file[b] - TypeError: Config....\n========================= 5 failed, 1 passed in 0.09s ==========================\n"
+          }
+        ]
+      },
+      "G_by_function": {
+        "tests/test_config.py::test_config_from_file_mode": {
+          "PASSED": 2,
+          "FAILED": 4
+        },
+        "tests/test_config.py::test_config_from_file_toml": {
+          "FAILED": 2
+        },
+        "tests/test_config.py::test_config_missing_file": {
+          "FAILED": 4
+        }
+      },
+      "G_per_case": {
+        "tests/test_config.py::test_config_from_file_mode[None-str]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_from_file_mode[b-bytes]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_config.py::test_config_from_file_mode[t-str]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_config.py::test_config_from_file_toml": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_config.py::test_config_missing_file[b]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_config.py::test_config_missing_file[t]": [
+          "FAILED",
+          "FAILED"
+        ]
+      }
+    }
+  }
+}

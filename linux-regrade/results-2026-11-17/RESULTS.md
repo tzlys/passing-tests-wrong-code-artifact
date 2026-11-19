@@ -78,3 +78,9 @@ macOS: 15 directly, and 1 after this post-hoc restore.
 
 Files: [`../supplement-01-2026-11-18/`](../supplement-01-2026-11-18/).
 
+## SUPPLEMENT-02 (2026-11-19, post-hoc)
+
+This supplement ran the model-written tests against the reference fix. All 11
+predictions committed before the run held. See
+[`../supplement-02-2026-11-19/RESULTS.md`](../supplement-02-2026-11-19/RESULTS.md).
+

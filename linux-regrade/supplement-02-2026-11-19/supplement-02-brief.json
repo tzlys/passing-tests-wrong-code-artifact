@@ -1,0 +1,429 @@
+{
+  "psf__requests-3362": {
+    "M": {
+      "apply_exits": [
+        0
+      ],
+      "exits": [
+        0,
+        0
+      ],
+      "per_case": {
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value0-None]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value4-None]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]": [
+          "PASSED",
+          "PASSED"
+        ]
+      }
+    },
+    "G": {
+      "apply_exits": [
+        0,
+        0
+      ],
+      "exits": [
+        1,
+        1
+      ],
+      "per_case": {
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-iso-8859-1-iso-8859-1-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-False-True]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-False]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-1-True-True]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-False-True]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-False]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json-utf-8-None-16384-True-True]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-1-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-False-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-False]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_json_response_decode_unicode[application/json; charset=iso-8859-1-iso-8859-1-None-16384-True-True]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_requests.py::TestRequests::test_response_decode_unicode_without_encoding": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value0-None]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value1-utf-8]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value2-utf-8]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value3-utf-16]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value4-None]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_utils.py::test_get_encoding_from_headers[value5-ISO-8859-1]": [
+          "PASSED",
+          "PASSED"
+        ]
+      }
+    }
+  },
+  "pallets__flask-4045": {
+    "M": {
+      "apply_exits": [
+        0
+      ],
+      "exits": [
+        1,
+        1
+      ],
+      "per_case": {
+        "::test_nested_blueprints_with_current_werkzeug_client": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[.]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[.frontend]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[frontend.]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[myapp.frontend]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_nested_blueprint": [
+          "FAILED",
+          "FAILED"
+        ]
+      }
+    },
+    "G": {
+      "apply_exits": [
+        0,
+        0
+      ],
+      "exits": [
+        1,
+        1
+      ],
+      "per_case": {
+        "::test_nested_blueprints_with_current_werkzeug_client": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[.]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[.frontend]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[frontend.]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_dotted_names[myapp.frontend]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_blueprints.py::test_nested_blueprint": [
+          "FAILED",
+          "FAILED"
+        ]
+      }
+    }
+  },
+  "pallets__flask-4992": {
+    "M": {
+      "apply_exits": [
+        0
+      ],
+      "exits": [
+        0,
+        0
+      ],
+      "per_case": {
+        "tests/test_config.py::test_config_from_file_mode[None-str]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_from_file_mode[b-bytes]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_from_file_mode[t-str]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_from_file_toml": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_missing_file[b]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_missing_file[t]": [
+          "PASSED",
+          "PASSED"
+        ]
+      }
+    },
+    "G": {
+      "apply_exits": [
+        0,
+        0
+      ],
+      "exits": [
+        1,
+        1
+      ],
+      "per_case": {
+        "tests/test_config.py::test_config_from_file_mode[None-str]": [
+          "PASSED",
+          "PASSED"
+        ],
+        "tests/test_config.py::test_config_from_file_mode[b-bytes]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_config.py::test_config_from_file_mode[t-str]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_config.py::test_config_from_file_toml": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_config.py::test_config_missing_file[b]": [
+          "FAILED",
+          "FAILED"
+        ],
+        "tests/test_config.py::test_config_missing_file[t]": [
+          "FAILED",
+          "FAILED"
+        ]
+      }
+    }
+  }
+}
