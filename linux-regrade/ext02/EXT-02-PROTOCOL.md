@@ -126,3 +126,13 @@ trajectories with any extracted action.
 At most one short paragraph or sentence in Section VI. It is phrased as
 "preconditions occur", never as "failures occur", and it states the
 precision check and the sample.
+
+## Stage 0 outcome and the extractor (added after Stage 0, before Stage 1)
+
+Stage 0 found `trajs/` objects for 16 of the 24 entries. The extractors are in `ext02_extract.py`:
+
+- **SWE-agent (6 entries):** `.traj` files, `trajectory[].action`. Editor commands are dropped.
+- **OpenDevin CodeAct v1.8 (1 entry):** `run` actions.
+- **OpenHands CodeAct 2.1 (1 entry):** `execute_bash` tool calls.
+
+Moatless (4 entries), AppMap Navie (2), CodeFuse-CGM and SWE-Fixer issue no agent shell commands, so they are counted as *no actions*. In every format, heredoc bodies are removed because they are file content. The metric definitions in `ext02_metrics.py` are unchanged.
