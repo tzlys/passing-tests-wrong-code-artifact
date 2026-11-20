@@ -1,0 +1,601 @@
+{"entry": "20240402_sweagent_claude3opus", "instance": "psf__requests-3362", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "scikit-learn__scikit-learn-15512", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "matplotlib__matplotlib-23913", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-13768", "files": 1, "parsed": true, "n_actions": 5, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "pytest-dev__pytest-8906", "files": 1, "parsed": true, "n_actions": 7, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "pytest-dev__pytest-7432", "files": 1, "parsed": true, "n_actions": 6, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-15790", "files": 1, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-16106", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-24213", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "scikit-learn__scikit-learn-10949", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-17655", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sphinx-doc__sphinx-8801", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": true, "M1_lines": [], "M2_lines": [], "M3_lines": ["python setup.py install"]}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-12308", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sphinx-doc__sphinx-11445", "files": 1, "parsed": true, "n_actions": 11, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "matplotlib__matplotlib-25332", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sphinx-doc__sphinx-10451", "files": 1, "parsed": true, "n_actions": 6, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-21612", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "scikit-learn__scikit-learn-14894", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-13551", "files": 1, "parsed": true, "n_actions": 0}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-18199", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-14608", "files": 1, "parsed": true, "n_actions": 8, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "pydata__xarray-4094", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-11897", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-16255", "files": 1, "parsed": true, "n_actions": 13, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sphinx-doc__sphinx-8721", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-11870", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-16988", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "scikit-learn__scikit-learn-13497", "files": 1, "parsed": true, "n_actions": 5, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-12419", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-20590", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-13710", "files": 1, "parsed": true, "n_actions": 5, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-11099", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sphinx-doc__sphinx-8474", "files": 1, "parsed": true, "n_actions": 14, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "matplotlib__matplotlib-23964", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "matplotlib__matplotlib-23476", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-11630", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "sympy__sympy-13437", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "astropy__astropy-7746", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "scikit-learn__scikit-learn-11281", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_claude3opus", "instance": "django__django-14999", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "pytest-dev__pytest-7168", "files": 1, "parsed": true, "n_actions": 4, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "scikit-learn__scikit-learn-13142", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "matplotlib__matplotlib-24970", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "pytest-dev__pytest-8365", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "scikit-learn__scikit-learn-14983", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-23117", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-24066", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-12747", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-13448", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-11620", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-13660", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "psf__requests-2317", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-22714", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "scikit-learn__scikit-learn-13439", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "scikit-learn__scikit-learn-13584", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-18087", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-14317", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "scikit-learn__scikit-learn-12471", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-12454", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "matplotlib__matplotlib-26020", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "pylint-dev__pylint-7114", "files": 1, "parsed": true, "n_actions": 6, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "scikit-learn__scikit-learn-10297", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-14016", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-15213", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "psf__requests-1963", "files": 1, "parsed": true, "n_actions": 11, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "matplotlib__matplotlib-25079", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-16503", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-11999", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "pytest-dev__pytest-7220", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-12171", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "pylint-dev__pylint-6506", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "pydata__xarray-5131", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-14308", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-11039", "files": 1, "parsed": true, "n_actions": 0}
+{"entry": "20240402_sweagent_gpt4", "instance": "sphinx-doc__sphinx-8721", "files": 1, "parsed": true, "n_actions": 0}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-24152", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-16046", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "sympy__sympy-16106", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240402_sweagent_gpt4", "instance": "django__django-16139", "files": 1, "parsed": true, "n_actions": 0}
+{"entry": "20240402_sweagent_gpt4", "instance": "sphinx-doc__sphinx-8435", "files": 1, "parsed": true, "n_actions": 10, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-15347", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-14730", "files": 28, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-16988", "files": 81, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sphinx-doc__sphinx-8273", "files": 111, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "scikit-learn__scikit-learn-14983", "files": 24, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-15814", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-13315", "files": 39, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "scikit-learn__scikit-learn-10297", "files": 42, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "matplotlib__matplotlib-25079", "files": 66, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-11001", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-18621", "files": 50, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-12983", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "scikit-learn__scikit-learn-12471", "files": 49, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-12856", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-14997", "files": 55, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-24066", "files": 45, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-15996", "files": 39, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-11742", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-15695", "files": 83, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-17655", "files": 54, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-21379", "files": 31, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "pytest-dev__pytest-7220", "files": 49, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "pylint-dev__pylint-7228", "files": 37, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-14672", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "mwaskom__seaborn-3407", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-13964", "files": 39, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "scikit-learn__scikit-learn-13241", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "pytest-dev__pytest-5227", "files": 84, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-18199", "files": 49, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "astropy__astropy-12907", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "psf__requests-2148", "files": 33, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-18189", "files": 78, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "matplotlib__matplotlib-25332", "files": 82, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "mwaskom__seaborn-3190", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-16792", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-20639", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-14580", "files": 82, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "pydata__xarray-4493", "files": 50, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "django__django-11964", "files": 22, "parsed": false, "n_actions": 0}
+{"entry": "20240615_appmap-navie_gpt4o", "instance": "sympy__sympy-14308", "files": 86, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-13895", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-12286", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "pytest-dev__pytest-11143", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sphinx-doc__sphinx-8627", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-13471", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "matplotlib__matplotlib-25498", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-15902", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "scikit-learn__scikit-learn-15512", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sphinx-doc__sphinx-8595", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "matplotlib__matplotlib-23563", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "pytest-dev__pytest-5692", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "matplotlib__matplotlib-25079", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-15738", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-16595", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-14017", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "scikit-learn__scikit-learn-14983", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-15061", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-18189", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "pallets__flask-4992", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-13028", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-16820", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-18621", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-11797", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-15308", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "scikit-learn__scikit-learn-10297", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-14308", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-21055", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-12908", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-19007", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "astropy__astropy-12907", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-12589", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-15213", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "pytest-dev__pytest-7432", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "astropy__astropy-14365", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-12284", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-11964", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "pylint-dev__pylint-7993", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-11910", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "django__django-13447", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240617_moatless_gpt4o", "instance": "sympy__sympy-17655", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "pylint-dev__pylint-7080", "files": 1, "parsed": true, "n_actions": 11, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-20442", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-23262", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-13710", "files": 1, "parsed": true, "n_actions": 10, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-17087", "files": 1, "parsed": true, "n_actions": 15, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "pytest-dev__pytest-8365", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sphinx-doc__sphinx-8435", "files": 1, "parsed": true, "n_actions": 6, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "pydata__xarray-4493", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-20639", "files": 1, "parsed": true, "n_actions": 11, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-11001", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-12125", "files": 1, "parsed": true, "n_actions": 34, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sphinx-doc__sphinx-8506", "files": 1, "parsed": true, "n_actions": 20, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-24152", "files": 1, "parsed": true, "n_actions": 16, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "scikit-learn__scikit-learn-12471", "files": 1, "parsed": true, "n_actions": 6, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-20590", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-15678", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-14752", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "pytest-dev__pytest-7373", "files": 1, "parsed": true, "n_actions": 3, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-12481", "files": 1, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "astropy__astropy-7746", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-12856", "files": 1, "parsed": true, "n_actions": 26, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-14672", "files": 1, "parsed": true, "n_actions": 6, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-22714", "files": 1, "parsed": true, "n_actions": 12, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-11564", "files": 1, "parsed": true, "n_actions": 21, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-12454", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-13401", "files": 1, "parsed": true, "n_actions": 20, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "scikit-learn__scikit-learn-13779", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-11964", "files": 1, "parsed": true, "n_actions": 17, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "pytest-dev__pytest-5103", "files": 1, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-15320", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sympy__sympy-13915", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "matplotlib__matplotlib-23964", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "matplotlib__matplotlib-25079", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-11019", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "sphinx-doc__sphinx-8721", "files": 1, "parsed": true, "n_actions": 0}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-16595", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-15781", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "pytest-dev__pytest-5221", "files": 1, "parsed": true, "n_actions": 19, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "django__django-10924", "files": 1, "parsed": true, "n_actions": 7, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240620_sweagent_claude3.5sonnet", "instance": "pytest-dev__pytest-11143", "files": 1, "parsed": true, "n_actions": 1, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "scikit-learn__scikit-learn-13496", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-14667", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "mwaskom__seaborn-3190", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-21612", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-16988", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "scikit-learn__scikit-learn-13779", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "scikit-learn__scikit-learn-14983", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-14608", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-14317", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sphinx-doc__sphinx-8506", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-12125", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-17630", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "matplotlib__matplotlib-25498", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "matplotlib__matplotlib-26020", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "pytest-dev__pytest-11143", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-11848", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-24102", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-14308", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "scikit-learn__scikit-learn-10508", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-12286", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "scikit-learn__scikit-learn-25638", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "pydata__xarray-4248", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-13028", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-14787", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-13773", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-13230", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "scikit-learn__scikit-learn-10949", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "scikit-learn__scikit-learn-13497", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-12470", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sphinx-doc__sphinx-8801", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "pydata__xarray-4493", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-10924", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-16046", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-19254", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "scikit-learn__scikit-learn-11281", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "django__django-12747", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "pytest-dev__pytest-8365", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "matplotlib__matplotlib-24970", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "astropy__astropy-14182", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240623_moatless_claude35sonnet", "instance": "sympy__sympy-12419", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-23117", "files": 1, "parsed": true, "n_actions": 11, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-15061", "files": 1, "parsed": true, "n_actions": 3, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-15678", "files": 1, "parsed": true, "n_actions": 0}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "matplotlib__matplotlib-25433", "files": 1, "parsed": true, "n_actions": 0}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-16379", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "scikit-learn__scikit-learn-14087", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-14017", "files": 1, "parsed": true, "n_actions": 9, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-16816", "files": 1, "parsed": true, "n_actions": 9, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "matplotlib__matplotlib-24265", "files": 1, "parsed": true, "n_actions": 7, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-15011", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-21614", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-12589", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-24213", "files": 1, "parsed": true, "n_actions": 0}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "scikit-learn__scikit-learn-10949", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-13146", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-19007", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "matplotlib__matplotlib-24149", "files": 1, "parsed": true, "n_actions": 5, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "pallets__flask-4992", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "pytest-dev__pytest-11143", "files": 1, "parsed": true, "n_actions": 8, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sphinx-doc__sphinx-8721", "files": 1, "parsed": true, "n_actions": 17, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "pytest-dev__pytest-11148", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-12454", "files": 1, "parsed": true, "n_actions": 6, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-11099", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-21171", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-11049", "files": 1, "parsed": true, "n_actions": 5, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-16139", "files": 1, "parsed": true, "n_actions": 4, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-11620", "files": 1, "parsed": true, "n_actions": 4, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-18199", "files": 1, "parsed": true, "n_actions": 8, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-16873", "files": 1, "parsed": true, "n_actions": 8, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-14774", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-18057", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "pytest-dev__pytest-5221", "files": 1, "parsed": true, "n_actions": 12, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-15695", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "scikit-learn__scikit-learn-13497", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-24152", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-14580", "files": 1, "parsed": true, "n_actions": 5, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "django__django-15347", "files": 1, "parsed": true, "n_actions": 8, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "sympy__sympy-12236", "files": 1, "parsed": true, "n_actions": 14, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "psf__requests-1963", "files": 1, "parsed": true, "n_actions": 28, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240725_opendevin_codeact_v1.8_claude35sonnet", "instance": "psf__requests-2148", "files": 1, "parsed": true, "n_actions": 10, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "psf__requests-3362", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-13265", "files": 1, "parsed": true, "n_actions": 56, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-11564", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-18057", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-14817", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-12419", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-18532", "files": 1, "parsed": true, "n_actions": 6, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-12171", "files": 1, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "pytest-dev__pytest-5692", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-13925", "files": 1, "parsed": true, "n_actions": 28, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-13480", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-18835", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "scikit-learn__scikit-learn-25500", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "scikit-learn__scikit-learn-13779", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-12125", "files": 1, "parsed": true, "n_actions": 21, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-15011", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-18189", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-16792", "files": 1, "parsed": true, "n_actions": 6, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "pytest-dev__pytest-5227", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-11283", "files": 1, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "pallets__flask-5063", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-11039", "files": 1, "parsed": true, "n_actions": 2, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-13590", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "pallets__flask-4045", "files": 1, "parsed": true, "n_actions": 1, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-24102", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-20590", "files": 1, "parsed": true, "n_actions": 1, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-15814", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "astropy__astropy-14365", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-14016", "files": 1, "parsed": true, "n_actions": 2, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-11179", "files": 1, "parsed": true, "n_actions": 13, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sphinx-doc__sphinx-7686", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-13321", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "sympy__sympy-13177", "files": 1, "parsed": true, "n_actions": 26, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-13768", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-13158", "files": 1, "parsed": true, "n_actions": 24, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "pytest-dev__pytest-5221", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "scikit-learn__scikit-learn-13497", "files": 1, "parsed": true, "n_actions": 10, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-11583", "files": 1, "parsed": true, "n_actions": 20, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-11999", "files": 1, "parsed": true, "n_actions": 22, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20240728_sweagent_gpt4o", "instance": "django__django-11742", "files": 1, "parsed": true, "n_actions": 13, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-14915", "files": 1, "parsed": true, "n_actions": 7, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-11422", "files": 1, "parsed": true, "n_actions": 12, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "scikit-learn__scikit-learn-14894", "files": 1, "parsed": true, "n_actions": 4, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-11620", "files": 1, "parsed": true, "n_actions": 20, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "scikit-learn__scikit-learn-13142", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-13033", "files": 1, "parsed": true, "n_actions": 10, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "psf__requests-1963", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-17087", "files": 1, "parsed": true, "n_actions": 31, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-11897", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-12747", "files": 1, "parsed": true, "n_actions": 12, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "scikit-learn__scikit-learn-11040", "files": 1, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-21379", "files": 1, "parsed": true, "n_actions": 13, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-14580", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-14752", "files": 1, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-14999", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-15061", "files": 1, "parsed": true, "n_actions": 10, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "scikit-learn__scikit-learn-13584", "files": 1, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-10924", "files": 1, "parsed": true, "n_actions": 23, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-16873", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-17022", "files": 1, "parsed": true, "n_actions": 17, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-21055", "files": 1, "parsed": true, "n_actions": 3, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "matplotlib__matplotlib-24970", "files": 1, "parsed": true, "n_actions": 13, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-12908", "files": 1, "parsed": true, "n_actions": 15, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "pytest-dev__pytest-7432", "files": 1, "parsed": true, "n_actions": 10, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-19007", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-16106", "files": 1, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-12454", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-16820", "files": 1, "parsed": true, "n_actions": 35, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-16281", "files": 1, "parsed": true, "n_actions": 5, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "matplotlib__matplotlib-25079", "files": 1, "parsed": true, "n_actions": 7, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-15011", "files": 1, "parsed": true, "n_actions": 11, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-15609", "files": 1, "parsed": true, "n_actions": 6, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-14024", "files": 1, "parsed": true, "n_actions": 18, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-24909", "files": 1, "parsed": true, "n_actions": 7, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "psf__requests-2148", "files": 1, "parsed": true, "n_actions": 7, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "matplotlib__matplotlib-23964", "files": 1, "parsed": true, "n_actions": 7, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "sympy__sympy-14396", "files": 1, "parsed": true, "n_actions": 7, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "scikit-learn__scikit-learn-25638", "files": 1, "parsed": true, "n_actions": 12, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "django__django-14997", "files": 1, "parsed": true, "n_actions": 22, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241025_OpenHands-CodeAct-2.1-sonnet-20241022", "instance": "psf__requests-3362", "files": 1, "parsed": true, "n_actions": 38, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-15202", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sphinx-doc__sphinx-8801", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "pytest-dev__pytest-7373", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-15498", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-14915", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-11964", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "scikit-learn__scikit-learn-14087", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sphinx-doc__sphinx-8282", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sphinx-doc__sphinx-7686", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "pylint-dev__pylint-7080", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-15902", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "matplotlib__matplotlib-25433", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-14534", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "psf__requests-2148", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-14238", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-11742", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-15996", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-12497", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-13447", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "matplotlib__matplotlib-25079", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sphinx-doc__sphinx-8713", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-13933", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-11283", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sympy__sympy-21627", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sphinx-doc__sphinx-8273", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sympy__sympy-20590", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sympy__sympy-18057", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "scikit-learn__scikit-learn-13439", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-13757", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "pytest-dev__pytest-5413", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sympy__sympy-13437", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sympy__sympy-14317", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-15213", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-16041", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-16816", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sympy__sympy-11897", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "astropy__astropy-12907", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "django__django-12700", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "sympy__sympy-16988", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241113_navie-2-gpt4o-sonnet", "instance": "scikit-learn__scikit-learn-11281", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "sphinx-doc__sphinx-8273", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "pylint-dev__pylint-7114", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-15388", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "sympy__sympy-15609", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-13033", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "sphinx-doc__sphinx-10325", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-11019", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-12286", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-13964", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-13551", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "scikit-learn__scikit-learn-14092", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "scikit-learn__scikit-learn-13584", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-13448", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "pytest-dev__pytest-7432", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-11910", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-12915", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-15213", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-12700", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "scikit-learn__scikit-learn-25570", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "sympy__sympy-18189", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-15320", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-14915", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "pydata__xarray-3364", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "psf__requests-863", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-14787", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-11422", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "sympy__sympy-16503", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-12747", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "pylint-dev__pylint-7080", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-12983", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "mwaskom__seaborn-3010", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "scikit-learn__scikit-learn-14894", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-16255", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-12708", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-13230", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "sympy__sympy-18087", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "sphinx-doc__sphinx-8721", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-13401", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "django__django-12184", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20241117_moatless_claude-3.5-sonnet-20241022", "instance": "sympy__sympy-14317", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-13031", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-18087", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sphinx-doc__sphinx-10451", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-22714", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "matplotlib__matplotlib-24334", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-15851", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-12308", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sphinx-doc__sphinx-7686", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "scikit-learn__scikit-learn-15535", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "pytest-dev__pytest-5103", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-14730", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-17087", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-11630", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-12470", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-13158", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-14997", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-18199", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-13915", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-15819", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "pytest-dev__pytest-5413", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "matplotlib__matplotlib-26020", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sphinx-doc__sphinx-8627", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-23262", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-12747", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "scikit-learn__scikit-learn-14894", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sphinx-doc__sphinx-8273", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-13647", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-13471", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "matplotlib__matplotlib-23964", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-14999", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-12419", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-15781", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "pydata__xarray-4094", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-13033", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "matplotlib__matplotlib-22711", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-14534", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "matplotlib__matplotlib-25332", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-12453", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "django__django-11283", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250111_moatless_deepseek_v3", "instance": "sympy__sympy-20590", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-23262", "files": 4, "parsed": true, "n_actions": 16, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-15814", "files": 4, "parsed": true, "n_actions": 18, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-13925", "files": 4, "parsed": true, "n_actions": 14, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-16106", "files": 4, "parsed": true, "n_actions": 22, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-12454", "files": 4, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-12747", "files": 4, "parsed": true, "n_actions": 19, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "pylint-dev__pylint-7228", "files": 3, "parsed": true, "n_actions": 14, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-12700", "files": 3, "parsed": true, "n_actions": 10, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-15346", "files": 4, "parsed": true, "n_actions": 16, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "psf__requests-3362", "files": 3, "parsed": true, "n_actions": 7, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "pytest-dev__pytest-8906", "files": 3, "parsed": true, "n_actions": 19, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-11564", "files": 3, "parsed": true, "n_actions": 33, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sphinx-doc__sphinx-10325", "files": 3, "parsed": false, "n_actions": 0}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "README", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "pytest-dev__pytest-11143", "files": 3, "parsed": true, "n_actions": 12, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-15695", "files": 3, "parsed": true, "n_actions": 21, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-13220", "files": 3, "parsed": true, "n_actions": 9, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-15498", "files": 3, "parsed": true, "n_actions": 15, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-13321", "files": 4, "parsed": true, "n_actions": 10, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "pylint-dev__pylint-7993", "files": 3, "parsed": true, "n_actions": 10, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sphinx-doc__sphinx-10451", "files": 2, "parsed": false, "n_actions": 0}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "pytest-dev__pytest-6116", "files": 3, "parsed": true, "n_actions": 12, "T": true, "M1": true, "M2": false, "M3": false, "M1_lines": ["cd /testbed && python -m pytest --help | grep -E \"^  -[a-zA-Z]\"", "cd /testbed && python -m pytest --help | grep -A 2 \"collect-only\""], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-14817", "files": 4, "parsed": true, "n_actions": 13, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-12908", "files": 3, "parsed": true, "n_actions": 20, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "psf__requests-863", "files": 4, "parsed": true, "n_actions": 16, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-14667", "files": 3, "parsed": true, "n_actions": 20, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "results", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-24909", "files": 3, "parsed": true, "n_actions": 8, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-18698", "files": 3, "parsed": true, "n_actions": 41, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sphinx-doc__sphinx-7738", "files": 3, "parsed": true, "n_actions": 14, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "pytest-dev__pytest-5103", "files": 3, "parsed": true, "n_actions": 13, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "matplotlib__matplotlib-24334", "files": 3, "parsed": true, "n_actions": 14, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-13158", "files": 4, "parsed": true, "n_actions": 17, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-14608", "files": 4, "parsed": true, "n_actions": 29, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-13551", "files": 4, "parsed": true, "n_actions": 11, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-16792", "files": 3, "parsed": true, "n_actions": 19, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "pydata__xarray-4493", "files": 3, "parsed": true, "n_actions": 16, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "django__django-11039", "files": 4, "parsed": true, "n_actions": 19, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-20590", "files": 4, "parsed": true, "n_actions": 17, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250226_sweagent_claude-3-7-sonnet-20250219", "instance": "sympy__sympy-19487", "files": 4, "parsed": true, "n_actions": 16, "T": false, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250306_SWE-Fixer_Qwen2.5-7b-retriever_Qwen2.5-72b-editor", "instance": "lite_trajs", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-12284", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-11897", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "mwaskom__seaborn-3407", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-24102", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "psf__requests-2317", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-15851", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-16816", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "scikit-learn__scikit-learn-15535", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-14534", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "astropy__astropy-12907", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-21379", "files": 0, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "pytest-dev__pytest-7168", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-16041", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-17087", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-20049", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "scikit-learn__scikit-learn-10297", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-18621", "files": 0, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-12481", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "matplotlib__matplotlib-23913", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-12470", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-15819", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-11583", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-16255", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-16873", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-16281", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "pytest-dev__pytest-11143", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-21614", "files": 0, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "scikit-learn__scikit-learn-13142", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "pytest-dev__pytest-5221", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "pytest-dev__pytest-11148", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "astropy__astropy-7746", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-11400", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-15213", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-13590", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-14730", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-13915", "files": 0, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "pytest-dev__pytest-7220", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "django__django-14915", "files": 1, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-11870", "files": 0, "parsed": false, "n_actions": 0}
+{"entry": "20250310_codefuse-cgm", "instance": "sympy__sympy-22714", "files": 0, "parsed": false, "n_actions": 0}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-11630", "files": 3, "parsed": true, "n_actions": 47, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-15400", "files": 3, "parsed": true, "n_actions": 44, "T": true, "M1": true, "M2": false, "M3": false, "M1_lines": ["cd /testbed && python tests/runtests.py utils_tests -v 0 --parallel 1 | grep -E \"(FAILED|ERROR|OK|test.*\\.py)\""], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-14999", "files": 4, "parsed": true, "n_actions": 39, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-16873", "files": 2, "parsed": false, "n_actions": 0}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "matplotlib__matplotlib-23964", "files": 4, "parsed": true, "n_actions": 27, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "psf__requests-3362", "files": 3, "parsed": true, "n_actions": 39, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-15061", "files": 4, "parsed": true, "n_actions": 52, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-14787", "files": 3, "parsed": true, "n_actions": 32, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "sympy__sympy-14774", "files": 4, "parsed": true, "n_actions": 34, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "sympy__sympy-19007", "files": 3, "parsed": true, "n_actions": 66, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "sympy__sympy-12454", "files": 3, "parsed": true, "n_actions": 33, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-12284", "files": 3, "parsed": true, "n_actions": 53, "T": true, "M1": true, "M2": false, "M3": false, "M1_lines": ["cd /testbed && python tests/runtests.py model_fields -v 1 | grep -E \"(FAILED|ERROR|OK|test.*choices)\"", "cd /testbed && python tests/runtests.py model_fields -v 1 | tail -10"], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-11049", "files": 3, "parsed": true, "n_actions": 26, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "pytest-dev__pytest-9359", "files": 4, "parsed": true, "n_actions": 42, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "pytest-dev__pytest-5103", "files": 3, "parsed": false, "n_actions": 0}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "scikit-learn__scikit-learn-25500", "files": 4, "parsed": true, "n_actions": 38, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "scikit-learn__scikit-learn-11281", "files": 4, "parsed": true, "n_actions": 40, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "mwaskom__seaborn-3407", "files": 3, "parsed": true, "n_actions": 49, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-14534", "files": 4, "parsed": true, "n_actions": 64, "T": true, "M1": true, "M2": false, "M3": false, "M1_lines": ["cd /testbed && python tests/runtests.py forms_tests.tests.test_forms -v 2 | head -50", "cd /testbed && python tests/runtests.py forms_tests.tests.test_widgets -v 1 | head -20"], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "pytest-dev__pytest-7168", "files": 3, "parsed": true, "n_actions": 23, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-11999", "files": 3, "parsed": true, "n_actions": 29, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-11797", "files": 3, "parsed": true, "n_actions": 37, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-12747", "files": 3, "parsed": true, "n_actions": 42, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-12856", "files": 4, "parsed": true, "n_actions": 42, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "sympy__sympy-12171", "files": 3, "parsed": true, "n_actions": 31, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "scikit-learn__scikit-learn-12471", "files": 4, "parsed": true, "n_actions": 28, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-11179", "files": 3, "parsed": true, "n_actions": 42, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-13315", "files": 3, "parsed": true, "n_actions": 48, "T": true, "M1": true, "M2": false, "M3": false, "M1_lines": ["cd /testbed && python tests/runtests.py admin_widgets --verbosity=2 | grep -E \"(test.*limit|FAIL|ERROR|OK)\"", "cd /testbed && python tests/runtests.py model_forms --verbosity=1 | grep -E \"(FAIL|ERROR|OK$|test.*limit)\"", "cd /testbed && python tests/runtests.py forms_tests.tests.test_forms --verbosity=1 | tail -5", "cd /testbed && python tests/runtests.py forms_tests.tests.test_models --verbosity=1 | tail -5", "cd /testbed && python tests/runtests.py forms_tests.tests.test_formsets --verbosity=1 | tail -5"], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "scikit-learn__scikit-learn-13241", "files": 4, "parsed": true, "n_actions": 49, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-16408", "files": 2, "parsed": false, "n_actions": 0}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "sphinx-doc__sphinx-11445", "files": 4, "parsed": true, "n_actions": 57, "T": true, "M1": true, "M2": false, "M3": false, "M1_lines": ["cd /testbed && python -m pytest tests/test_build_html.py --maxfail=3 -x | head -20", "cd /testbed && python -m pytest tests/test_environment.py --maxfail=3 -x | head -10"], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "pytest-dev__pytest-7373", "files": 4, "parsed": true, "n_actions": 19, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "scikit-learn__scikit-learn-13584", "files": 4, "parsed": true, "n_actions": 54, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "sympy__sympy-24102", "files": 3, "parsed": true, "n_actions": 32, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "sphinx-doc__sphinx-8721", "files": 3, "parsed": true, "n_actions": 22, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-12113", "files": 4, "parsed": true, "n_actions": 26, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-15695", "files": 4, "parsed": true, "n_actions": 64, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-16229", "files": 4, "parsed": true, "n_actions": 61, "T": true, "M1": true, "M2": false, "M3": false, "M1_lines": ["cd /testbed && python tests/runtests.py admin_inlines -v 2 | head -50"], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "django__django-15819", "files": 4, "parsed": true, "n_actions": 33, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}
+{"entry": "20250526_sweagent_claude-4-sonnet-20250514", "instance": "psf__requests-863", "files": 3, "parsed": true, "n_actions": 35, "T": true, "M1": false, "M2": false, "M3": false, "M1_lines": [], "M2_lines": [], "M3_lines": []}

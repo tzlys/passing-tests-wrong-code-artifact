@@ -1,0 +1,237 @@
+{
+ "20231010_rag_claude2": {
+  "objects": 0,
+  "instances": 0,
+  "ext": {},
+  "too_large_in_sample": 0,
+  "bytes_total": 0
+ },
+ "20231010_rag_gpt35": {
+  "objects": 0,
+  "instances": 0,
+  "ext": {},
+  "too_large_in_sample": 0,
+  "bytes_total": 0
+ },
+ "20231010_rag_swellama13b": {
+  "objects": 0,
+  "instances": 0,
+  "ext": {},
+  "too_large_in_sample": 0,
+  "bytes_total": 0
+ },
+ "20231010_rag_swellama7b": {
+  "objects": 0,
+  "instances": 0,
+  "ext": {},
+  "too_large_in_sample": 0,
+  "bytes_total": 0
+ },
+ "20240402_rag_claude3opus": {
+  "objects": 0,
+  "instances": 0,
+  "ext": {},
+  "too_large_in_sample": 0,
+  "bytes_total": 0
+ },
+ "20240402_rag_gpt4": {
+  "objects": 0,
+  "instances": 0,
+  "ext": {},
+  "too_large_in_sample": 0,
+  "bytes_total": 0
+ },
+ "20240402_sweagent_claude3opus": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "traj": 300
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 39755192,
+  "probe_key": "lite/20240402_sweagent_claude3opus/trajs/psf__requests-3362.traj"
+ },
+ "20240402_sweagent_gpt4": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "traj": 300
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 55473609,
+  "probe_key": "lite/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7168.traj"
+ },
+ "20240615_appmap-navie_gpt4o": {
+  "objects": 14086,
+  "instances": 298,
+  "ext": {
+   "txt": 4501,
+   "md": 2306,
+   "patch": 1994,
+   "prompt.md": 1437,
+   "json": 1110,
+   "xml": 1082,
+   "": 668,
+   "yml": 555
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 153853172,
+  "probe_key": "lite/20240615_appmap-navie_gpt4o/trajs/django__django-15347/1/apply.md"
+ },
+ "20240617_moatless_gpt4o": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "json": 300
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 9421451,
+  "probe_key": "lite/20240617_moatless_gpt4o/trajs/sympy__sympy-13895.json"
+ },
+ "20240620_sweagent_claude3.5sonnet": {
+  "objects": 289,
+  "instances": 289,
+  "ext": {
+   "traj": 289
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 91852755,
+  "probe_key": "lite/20240620_sweagent_claude3.5sonnet/trajs/pylint-dev__pylint-7080.traj"
+ },
+ "20240623_moatless_claude35sonnet": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "json": 300
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 14161350,
+  "probe_key": "lite/20240623_moatless_claude35sonnet/trajs/scikit-learn__scikit-learn-13496.json"
+ },
+ "20240725_opendevin_codeact_v1.8_claude35sonnet": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "traj": 300
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 72508739,
+  "probe_key": "lite/20240725_opendevin_codeact_v1.8_claude35sonnet/trajs/sympy__sympy-23117.traj"
+ },
+ "20240728_sweagent_gpt4o": {
+  "objects": 278,
+  "instances": 278,
+  "ext": {
+   "traj": 278
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 99000681,
+  "probe_key": "lite/20240728_sweagent_gpt4o/trajs/psf__requests-3362.traj"
+ },
+ "20241025_OpenHands-CodeAct-2.1-sonnet-20241022": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "json": 300
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 33864850,
+  "probe_key": "lite/20241025_OpenHands-CodeAct-2.1-sonnet-20241022/trajs/django__django-14915.json"
+ },
+ "20241113_navie-2-gpt4o-sonnet": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "jsonl": 300
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 1377241648,
+  "probe_key": "lite/20241113_navie-2-gpt4o-sonnet/trajs/django__django-15202.jsonl"
+ },
+ "20241117_moatless_claude-3.5-sonnet-20241022": {
+  "objects": 299,
+  "instances": 299,
+  "ext": {
+   "json": 299
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 505211089,
+  "probe_key": "lite/20241117_moatless_claude-3.5-sonnet-20241022/trajs/sphinx-doc__sphinx-8273/trajectory.json"
+ },
+ "20241203_KortixAI-AgentPress-sonnet-20241022": {
+  "objects": 0,
+  "instances": 0,
+  "ext": {},
+  "too_large_in_sample": 0,
+  "bytes_total": 0
+ },
+ "20250111_moatless_deepseek_v3": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "json": 300
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 764376337,
+  "probe_key": "lite/20250111_moatless_deepseek_v3/trajs/sympy__sympy-13031/trajectory.json"
+ },
+ "20250114_moatless_claude-3.5-sonnet-20241022": {
+  "objects": 0,
+  "instances": 0,
+  "ext": {},
+  "too_large_in_sample": 0,
+  "bytes_total": 0
+ },
+ "20250226_sweagent_claude-3-7-sonnet-20250219": {
+  "objects": 1053,
+  "instances": 308,
+  "ext": {
+   "config.yaml": 301,
+   "traj": 300,
+   "pred": 299,
+   "patch": 146,
+   "json": 4,
+   "md": 1,
+   "yaml": 1,
+   "00__p-1.00__c-2.00___swe_bench_lite_test_250226.json": 1
+  },
+  "too_large_in_sample": 3,
+  "bytes_total": 2798268158,
+  "probe_key": "lite/20250226_sweagent_claude-3-7-sonnet-20250219/trajs/sympy__sympy-23262/sympy__sympy-23262.config.yaml"
+ },
+ "20250306_SWE-Fixer_Qwen2.5-7b-retriever_Qwen2.5-72b-editor": {
+  "objects": 1,
+  "instances": 1,
+  "ext": {
+   "jsonl": 1
+  },
+  "too_large_in_sample": 0,
+  "bytes_total": 1631259,
+  "probe_key": "lite/20250306_SWE-Fixer_Qwen2.5-7b-retriever_Qwen2.5-72b-editor/trajs/lite_trajs.jsonl"
+ },
+ "20250310_codefuse-cgm": {
+  "objects": 300,
+  "instances": 300,
+  "ext": {
+   "json": 300
+  },
+  "too_large_in_sample": 6,
+  "bytes_total": 4707195296,
+  "probe_key": "lite/20250310_codefuse-cgm/trajs/django__django-12284.json"
+ },
+ "20250526_sweagent_claude-4-sonnet-20250514": {
+  "objects": 1042,
+  "instances": 302,
+  "ext": {
+   "config.yaml": 301,
+   "pred": 300,
+   "traj": 300,
+   "patch": 139,
+   "txt": 1,
+   "json": 1
+  },
+  "too_large_in_sample": 3,
+  "bytes_total": 3124786972,
+  "probe_key": "lite/20250526_sweagent_claude-4-sonnet-20250514/trajs/django__django-11630/django__django-11630.config.yaml"
+ }
+}

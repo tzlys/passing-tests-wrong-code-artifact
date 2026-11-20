@@ -1,0 +1,47 @@
+{
+ "M1": [
+  [
+   "20250526_sweagent_claude-4-sonnet-20250514",
+   "django__django-12284",
+   "cd /testbed && python tests/runtests.py model_fields -v 1 | grep -E \"(FAILED|ERROR|OK|test.*choices)\""
+  ],
+  [
+   "20250226_sweagent_claude-3-7-sonnet-20250219",
+   "pytest-dev__pytest-6116",
+   "cd /testbed && python -m pytest --help | grep -E \"^  -[a-zA-Z]\""
+  ],
+  [
+   "20250526_sweagent_claude-4-sonnet-20250514",
+   "django__django-15400",
+   "cd /testbed && python tests/runtests.py utils_tests -v 0 --parallel 1 | grep -E \"(FAILED|ERROR|OK|test.*\\.py)\""
+  ],
+  [
+   "20250526_sweagent_claude-4-sonnet-20250514",
+   "django__django-16229",
+   "cd /testbed && python tests/runtests.py admin_inlines -v 2 | head -50"
+  ],
+  [
+   "20250526_sweagent_claude-4-sonnet-20250514",
+   "sphinx-doc__sphinx-11445",
+   "cd /testbed && python -m pytest tests/test_build_html.py --maxfail=3 -x | head -20"
+  ],
+  [
+   "20250526_sweagent_claude-4-sonnet-20250514",
+   "django__django-13315",
+   "cd /testbed && python tests/runtests.py admin_widgets --verbosity=2 | grep -E \"(test.*limit|FAIL|ERROR|OK)\""
+  ],
+  [
+   "20250526_sweagent_claude-4-sonnet-20250514",
+   "django__django-14534",
+   "cd /testbed && python tests/runtests.py forms_tests.tests.test_forms -v 2 | head -50"
+  ]
+ ],
+ "M2": [],
+ "M3": [
+  [
+   "20240402_sweagent_claude3opus",
+   "sphinx-doc__sphinx-8801",
+   "python setup.py install"
+  ]
+ ]
+}

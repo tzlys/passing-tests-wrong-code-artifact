@@ -1,0 +1,160 @@
+{
+ "exclusions": {
+  "no_trajs": [
+   "20231010_rag_claude2",
+   "20231010_rag_gpt35",
+   "20231010_rag_swellama13b",
+   "20231010_rag_swellama7b",
+   "20240402_rag_claude3opus",
+   "20240402_rag_gpt4",
+   "20241203_KortixAI-AgentPress-sonnet-20241022",
+   "20250114_moatless_claude-3.5-sonnet-20241022"
+  ],
+  "too_large": 12,
+  "unparseable": 0,
+  "no_actions": 296,
+  "no_T": 230
+ },
+ "trajectories_with_actions": 305,
+ "trajectories_with_T": 75,
+ "metrics": {
+  "M1": {
+   "k": 7,
+   "n": 75,
+   "p": 0.093,
+   "wilson95": [
+    0.046,
+    0.18
+   ],
+   "entries_with_match": 2,
+   "entries": 8,
+   "median_entry_rate": 0.0,
+   "per_entry": {
+    "20240402_sweagent_claude3opus": [
+     0,
+     6
+    ],
+    "20240402_sweagent_gpt4": [
+     0,
+     1
+    ],
+    "20240620_sweagent_claude3.5sonnet": [
+     0,
+     10
+    ],
+    "20240725_opendevin_codeact_v1.8_claude35sonnet": [
+     0,
+     14
+    ],
+    "20240728_sweagent_gpt4o": [
+     0,
+     3
+    ],
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022": [
+     0,
+     1
+    ],
+    "20250226_sweagent_claude-3-7-sonnet-20250219": [
+     1,
+     3
+    ],
+    "20250526_sweagent_claude-4-sonnet-20250514": [
+     6,
+     37
+    ]
+   }
+  },
+  "M2": {
+   "k": 0,
+   "n": 75,
+   "p": 0.0,
+   "wilson95": [
+    0.0,
+    0.049
+   ],
+   "entries_with_match": 0,
+   "entries": 8,
+   "median_entry_rate": 0.0,
+   "per_entry": {
+    "20240402_sweagent_claude3opus": [
+     0,
+     6
+    ],
+    "20240402_sweagent_gpt4": [
+     0,
+     1
+    ],
+    "20240620_sweagent_claude3.5sonnet": [
+     0,
+     10
+    ],
+    "20240725_opendevin_codeact_v1.8_claude35sonnet": [
+     0,
+     14
+    ],
+    "20240728_sweagent_gpt4o": [
+     0,
+     3
+    ],
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022": [
+     0,
+     1
+    ],
+    "20250226_sweagent_claude-3-7-sonnet-20250219": [
+     0,
+     3
+    ],
+    "20250526_sweagent_claude-4-sonnet-20250514": [
+     0,
+     37
+    ]
+   }
+  },
+  "M3": {
+   "k": 1,
+   "n": 305,
+   "p": 0.003,
+   "wilson95": [
+    0.001,
+    0.018
+   ],
+   "entries_with_match": 1,
+   "entries": 8,
+   "median_entry_rate": 0.0,
+   "per_entry": {
+    "20240402_sweagent_claude3opus": [
+     1,
+     39
+    ],
+    "20240402_sweagent_gpt4": [
+     0,
+     37
+    ],
+    "20240620_sweagent_claude3.5sonnet": [
+     0,
+     39
+    ],
+    "20240725_opendevin_codeact_v1.8_claude35sonnet": [
+     0,
+     37
+    ],
+    "20240728_sweagent_gpt4o": [
+     0,
+     40
+    ],
+    "20241025_OpenHands-CodeAct-2.1-sonnet-20241022": [
+     0,
+     40
+    ],
+    "20250226_sweagent_claude-3-7-sonnet-20250219": [
+     0,
+     36
+    ],
+    "20250526_sweagent_claude-4-sonnet-20250514": [
+     0,
+     37
+    ]
+   }
+  }
+ }
+}
