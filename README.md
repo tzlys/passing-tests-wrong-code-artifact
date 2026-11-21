@@ -155,7 +155,8 @@ repository. It contains saved copies of third-party web pages and one pinned
 third-party source tree (autoMRE) that carries no license file, so we do not
 redistribute it publicly.
 
-Private review link: **(added before submission)**
+Private review link: **https://figshare.com/s/cad8a8bccc91c64970f9** (archive SHA-256
+`d21cc933159034036dbe20826e10276599acdf83f00dd865006c0c0e2d8a6596`)
 
 ## Limits
 
